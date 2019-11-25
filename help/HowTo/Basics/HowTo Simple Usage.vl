@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
+<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-1000.roslyn-b46f72d86e" Version="0.128">
   <NugetDependency Id="Na7I5vvzkxaLJOVjV3Y5dY" Location="VL.CoreLib" Version="2019.1.0-959" />
   <Patch Id="BgLZSIscectQSOv9XHhe8z">
     <Canvas Id="UGUGy7NZFEXOx6hzad1BsL" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -15,18 +15,13 @@
       </p:NodeReference>
       <Patch Id="UXhRGu4X1m3MvT1BaaDBHq">
         <Canvas Id="JvO7yiFeg0LQUcWuVjGAUN" CanvasType="Group">
-          <Node Bounds="67,141,85,19" Id="H1J08n3VmTwPO2gWq4ayqi">
+          <Node Bounds="67,141,-35,19" Id="H1J08n3VmTwPO2gWq4ayqi">
             <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="2D" />
               <CategoryReference Kind="Category" Name="PolygonEditor" />
               <Choice Kind="ProcessAppFlag" Name="PolygonEditor" />
             </p:NodeReference>
-            <Pin Id="RzSXIjREs77OSqxVoMJAnm" Name="Enable Default Shortcuts" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
             <Pin Id="CySzeu84MUBMuaafj6jq2V" Name="Save File Path" Kind="InputPin" DefaultValue="save.xml">
               <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Path" />
@@ -192,7 +187,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IbhLGzwOGlLMwhOHs93atG" Comment="Save" Bounds="109,88,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="IbhLGzwOGlLMwhOHs93atG" Comment="Save" Bounds="94,97,35,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -200,14 +195,6 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="147,110,54,19" Id="BOtgXFWK2FEMYyb2jsamxA">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="OnOpen" />
-            </p:NodeReference>
-            <Pin Id="JAnaeuq69kFOHFFiQ25RS7" Name="Simulate" Kind="InputPin" />
-            <Pin Id="OBOTiXx0TSTQIIgYW9h35G" Name="Output" Kind="OutputPin" />
-          </Node>
           <Pad Id="UOrUqAZcCERP5xGlO2f5lD" Bounds="638,180,339,200" ShowValueBox="true" isIOBox="true" Value="You can also interact with the polygon editor with shortcuts :&#xD;&#xA;&#xD;&#xA;- Double LMB : select a polygon&#xD;&#xA;- [+] + LMB : add a point&#xD;&#xA;- Space + LMB : insert a point at mouse pos on the selected polygon&#xD;&#xA;- LMB Drag : move a point&#xD;&#xA;- M + LMB Drag : move selected polygon&#xD;&#xA;- Del : remove selected polygon">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -235,6 +222,14 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Pad Id="ELsBsDkMKEvOK7jbh61qlS" Comment="Load demo config" Bounds="143,125,35,15" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="HUpbvSm7xcvNx8DMb8zHGj" Name="Create" />
         <Patch Id="KtLBAqVJoihNs9FPP9B0os" Name="Update" />
@@ -256,7 +251,7 @@
         <Link Id="KOa9oAx49rcNvYwPVO8KEc" Ids="U66IUDloV63Mi63go20IER,UB8EtPhupG1O0aXT2QYhRZ" />
         <Link Id="AotqqQqvWqhNv41pPtmMt5" Ids="PgwCy3f5N2wOYp371W4ico,CeNt2MmtmiDLh5dZk2Jnsu" />
         <Link Id="HygKBUrOmbrPldsEsZQEbG" Ids="IbhLGzwOGlLMwhOHs93atG,ElDuo18GpoCLY4ZNlnwq99" />
-        <Link Id="FwXLs2SmGavMLj5fChC3Ro" Ids="OBOTiXx0TSTQIIgYW9h35G,CShaMYTnqwINAgi3860mFm" />
+        <Link Id="OCyTLDwcdDZOUPvBhzkTrL" Ids="ELsBsDkMKEvOK7jbh61qlS,CShaMYTnqwINAgi3860mFm" />
       </Patch>
     </Node>
   </Patch>
