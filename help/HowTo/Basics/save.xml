@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<ApplicationModel Enable="True" Key="28ba734e-fefd-4614-a8e4-859a10971d3b" Selected_Polygon_Index="1" Session_Name="Session Name">
+  <Global_Settings Key="929876ea-4233-4e51-8522-346bdc291e91" Point_Hit_Radius="0.3" Snap_Size="0.05" />
+  <Polygons>
+    <Item Key="657a914c-1984-4eb8-a4cd-170675ffce0e" Name="Polygon">
+      <__auto>
+        <Item>0.6399996, 1.23</Item>
+        <Item>1.549999, 0.7</Item>
+        <Item>2.199999, 1.52</Item>
+        <Item>2.199999, 2.02</Item>
+        <Item>2.199999, 2.52</Item>
+        <Item>1.699999, 2.52</Item>
+        <Item>1.199999, 2.52</Item>
+        <Item>1.199999, 2.02</Item>
+        <Item>0.1999997, 2.05</Item>
+      </__auto>
+      <Points>
+        <Item>0.6399996, 1.23</Item>
+        <Item>1.549999, 0.7</Item>
+        <Item>2.199999, 1.52</Item>
+        <Item>2.199999, 2.02</Item>
+        <Item>2.199999, 2.52</Item>
+        <Item>1.699999, 2.52</Item>
+        <Item>1.29, 2.99</Item>
+        <Item>0.5, 2.8</Item>
+        <Item>0.1999997, 2.05</Item>
+      </Points>
+    </Item>
+    <Item Color="1, 0, 0, 1" Key="ee90f708-749b-49ed-964c-7b51e9458e21" Name="Hello">
+      <__auto>
+        <Item>2.999999, 1.24</Item>
+        <Item>3.499999, 1.24</Item>
+        <Item>4, 1.24</Item>
+        <Item>4, 1.74</Item>
+        <Item>4, 2.24</Item>
+        <Item>3.499999, 2.24</Item>
+        <Item>2.999999, 2.24</Item>
+        <Item>2.999999, 1.74</Item>
+      </__auto>
+      <Points>
+        <Item>2.999999, 1.24</Item>
+        <Item>3.499999, 1.24</Item>
+        <Item>4, 1.24</Item>
+        <Item>4.87, 1.77</Item>
+        <Item>5.11, 2.25</Item>
+        <Item>4.28, 2.84</Item>
+        <Item>2.999999, 2.24</Item>
+        <Item>2.65, 1.76</Item>
+      </Points>
+    </Item>
+  </Polygons>
+</ApplicationModel>
