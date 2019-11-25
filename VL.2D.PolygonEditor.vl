@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="V179W04yqI8OpMzJ6s2Him" LanguageVersion="2019.1.0-1000.roslyn-b46f72d86e" Version="0.128">
+<Document xmlns:p="property" Id="V179W04yqI8OpMzJ6s2Him" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
   <NugetDependency Id="C9yecI8y4yjPRr2FKOExbF" Location="VL.CoreLib" Version="2019.1.0-959" />
   <Patch Id="RZ4g205EXObPalp8K81Rxv">
     <Canvas Id="BsoMZNGD279OJuuv9YYg9I" DefaultCategory="2D.PolygonEditor" CanvasType="FullCategory">
@@ -8,7 +8,7 @@
     ************************ PolygonEditor ************************
 
 -->
-      <Node Name="PolygonEditor" Bounds="209,678" Id="ECazWQavcPHPt8PH8ADGG1">
+      <Node Name="PolygonEditor" Bounds="201,678" Id="ECazWQavcPHPt8PH8ADGG1">
         <p:NodeReference>
           <Choice Kind="ClassDefinition" Name="Class" />
           <FullNameCategoryReference ID="Primitive" />
@@ -16,7 +16,7 @@
         <Patch Id="Ts5BX9SUQ9lP3VEEeoaDtB">
           <Canvas Id="B5Y0mWx9hDcMNFTN2u34xq" CanvasType="Group">
             <Node Bounds="359,410,68,19" Id="HsoiC7u7PDtOLV2NcNYydk">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.PolygonEditor.vl">
+              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Application" />
               </p:NodeReference>
@@ -24,7 +24,7 @@
               <Pin Id="Onv722fxYVoO1KHHnZl3kr" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="360,518,49,19" Id="OqAzoaRzv02OodTecDnmXH">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.PolygonEditor.vl">
+              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Drawer" />
               </p:NodeReference>
@@ -32,7 +32,7 @@
               <Pin Id="Dtp2VAk0KiCQcijtzT0duv" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="463,518,185,19" Id="UfBjTfHAbpiMlTfBCgpTwV">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless" LastSymbolSource="VL.PolygonEditor.vl">
+              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless" LastSymbolSource="VL.2D.PolygonEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="HeadlessEditor" />
               </p:NodeReference>
@@ -58,7 +58,7 @@
             </Node>
             <ControlPoint Id="DzT9cFMC2UPOuGxIRwPfXf" Bounds="362,661" />
             <Node Bounds="682,518,92,19" Id="Ngzirlfq18kO5jxdgaNcGQ">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.File" LastSymbolSource="VL.PolygonEditor.vl">
+              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.File" LastSymbolSource="VL.2D.PolygonEditor.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SaveLoadSession" />
               </p:NodeReference>
@@ -101,8 +101,6 @@
             <Pin Id="VzZQAj59gSjLAepEdpkNnR" Name="Save" Kind="InputPin" Bounds="659,462" />
             <Pin Id="H75vIE7oztlMYXYstpkTF0" Name="Load File Path" Kind="InputPin" Bounds="671,472" />
             <Pin Id="IYzQUCqlSkION0y5ZYSiCD" Name="Load" Kind="InputPin" Bounds="695,502" />
-            <Pin Id="UMoTMf7wTZgM6IFIXgZ1mJ" Name="Layer" Kind="OutputPin" Bounds="367,652" />
-            <Pin Id="K6M48BeieEvQD2zEG7J2hh" Name="Polygons" Kind="OutputPin" Bounds="792,580" />
             <Pin Id="Jutn8lsqxh6NsGsDniPtRc" Name="Enable Delete Polygon Shortcut" Kind="InputPin" Bounds="527,390" Visibility="Optional" />
             <Pin Id="NFrcWFzTQrnQQN6GmN1h4x" Name="Enable Select Polygon Shortcut" Kind="InputPin" Bounds="550,405" Visibility="Optional" />
             <Pin Id="LuXPTUcqdGyOgWPEEKMKHL" Name="Enable Remove Point Shortcut" Kind="InputPin" Bounds="566,423" Visibility="Optional" />
@@ -111,6 +109,8 @@
             <Pin Id="S4AY2RMRoQoODvckTZTxzd" Name="Enable Move Point Shortcut" Kind="InputPin" Bounds="625,368" Visibility="Optional" />
             <Pin Id="Q7f5ryssWjPPtpnqHdiHP1" Name="Enable Add Polygon Shortcut" Kind="InputPin" Bounds="642,372" Visibility="Optional" />
             <Pin Id="SgiysbNBKf2MixIVk5Igic" Name="Enable Add Point Shortcut" Kind="InputPin" Bounds="658,359" Visibility="Optional" />
+            <Pin Id="UMoTMf7wTZgM6IFIXgZ1mJ" Name="Layer" Kind="OutputPin" Bounds="367,652" />
+            <Pin Id="K6M48BeieEvQD2zEG7J2hh" Name="Polygons" Kind="OutputPin" Bounds="792,580" />
           </Patch>
           <Link Id="Fv0KZySfuSFNCpnPhqUnsk" Ids="Onv722fxYVoO1KHHnZl3kr,FUWXFvywOvoLmourwtEy7F" />
           <Link Id="OscWQ2dfJdBObCWEkQkky9" Ids="Onv722fxYVoO1KHHnZl3kr,EWZvbju8XY1OicIiLs4NA4" />
@@ -160,8 +160,8 @@
           <Link Id="QScJspSixQ6LBDJlOe1M6C" Ids="SgiysbNBKf2MixIVk5Igic,MFCbGMR0sTJPyQfGQ4DXxc" IsHidden="true" />
         </Patch>
       </Node>
-      <Canvas Id="FzXwGZkkXKHL6H7jsGlVtN" Name="Internal" Position="209,619">
-        <Canvas Id="L3ZUdyVqbsyPF8c5No0FvT" Name="Model" Position="498,433">
+      <Canvas Id="FzXwGZkkXKHL6H7jsGlVtN" Name="Internal" Position="201,619">
+        <Canvas Id="L3ZUdyVqbsyPF8c5No0FvT" Name="Model" Position="495,433">
           <!--
 
     ************************ ApplicationModel ************************
@@ -754,7 +754,7 @@
                 </Node>
                 <ControlPoint Id="Nz7Zvzolru7LqPyLH6RE3E" Bounds="888,475" />
                 <ControlPoint Id="PGe32eTctQfLU03d4Hh443" Bounds="936,405" />
-                <Node Bounds="714,351,91,19" Id="FjhW6xMKz8qNTSuW07Zw4M">
+                <Node Bounds="714,306,91,19" Id="FjhW6xMKz8qNTSuW07Zw4M">
                   <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="RectangleSpread" />
@@ -802,6 +802,7 @@
                 <ControlPoint Id="SJRXrv0ZcEBLxBEN4XCXqf" Bounds="906,682" />
                 <ControlPoint Id="GnPVG0s5HPYNMd7EAZtCQt" Bounds="927,651" />
                 <ControlPoint Id="ChlzQgDPV0eLiSSwH3JtwB" Bounds="925,576" />
+                <ControlPoint Id="Q3A0NVNRqDAL1n3BxJggZy" Bounds="744,357" />
               </Canvas>
               <Patch Id="IFf8kDrO3CPPNedPsugLod" Name="Create" ParticipatingElements="M2S2XYobSChN7vBMrfOCJ0,Qq4d0Xt3lEKOje93z2T9m4,NKG5NqCDcqeLP3eklH6qqT,SJuCJwFY4O1O9DrPdKSWdJ" />
               <ProcessDefinition Id="N1zhg2MQIVLL9YHnqFDczU" IsHidden="true">
@@ -822,6 +823,7 @@
                 <Fragment Id="EdxzT8ZEHg3PyL0nsVWR93" Patch="TEkaXLHDGWoOQxX1IZ5ucc" Enabled="true" />
                 <Fragment Id="TVKOj9fwamhPo3cNGZ7mMS" Patch="ToTj0oEeSNCMUFvXJ1ifiw" Enabled="true" />
                 <Fragment Id="SEsCRRDWbBDLnImm8E838B" Patch="UlghUwf4Az5MAtKrAiyFfV" Enabled="true" />
+                <Fragment Id="EpJCKBEqenOPZlz3GOXpHN" Patch="VyuzeDyhKisNnuK0tbCSBv" Enabled="true" />
               </ProcessDefinition>
               <Slot Id="LjCNsZQEnixO3evTbJvL0s" Name="Key">
                 <p:TypeAnnotation>
@@ -949,10 +951,15 @@
               <Patch Id="UlghUwf4Az5MAtKrAiyFfV" Name="SetColor">
                 <Pin Id="IrPoYvFzPdrLiHyDeuGAc9" Name="Color" Kind="InputPin" />
               </Patch>
+              <Link Id="V3KMKck6lBAQW9lIa0VaOB" Ids="Q3A0NVNRqDAL1n3BxJggZy,JYGCLiimXGOOHNPyURKShZ" />
+              <Link Id="U4nMZX42BANNA6jswkdS4Y" Ids="NYmmKaP69QbMUDiwPM7wZe,Q3A0NVNRqDAL1n3BxJggZy" IsHidden="true" />
+              <Patch Id="VyuzeDyhKisNnuK0tbCSBv" Name="SetPoints">
+                <Pin Id="NYmmKaP69QbMUDiwPM7wZe" Name="Points" Kind="InputPin" />
+              </Patch>
             </Patch>
           </Node>
         </Canvas>
-        <Canvas Id="Fw9gAHxZIb7O5AmJ1zbiZs" Name="Runtime" Position="498,508">
+        <Canvas Id="Fw9gAHxZIb7O5AmJ1zbiZs" Name="Runtime" Position="495,507">
           <!--
 
     ************************ ApplicationRuntime ************************
@@ -1048,7 +1055,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Canvas Id="F7emLevMmhnO0its2HaJal" Name="Editor" Position="498,583">
+        <Canvas Id="F7emLevMmhnO0its2HaJal" Name="Editor" Position="495,581">
           <Canvas Id="U6wz5b4JaBFQCNoV7Yiv9I" Name="UI" Position="340,361" />
           <Canvas Id="NLTeodZIQquMGc0b7bshM2" Name="Headless" Position="340,415">
             <Canvas Id="RNxTExdSfhuMRZqng1iuja" Name="Triggers" Position="415,284">
@@ -1142,7 +1149,7 @@
                     </Node>
                     <ControlPoint Id="JYctavWpdv2LEArenLaltN" Bounds="423,653" />
                     <Node Bounds="241,410,60,19" Id="O7bnP9ZVjJCNDxyy0Iuycq">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                       </p:NodeReference>
@@ -1427,7 +1434,7 @@
                       <Pin Id="SLSN4a4gSiKP7Q5Dg2XN6v" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="159,697,60,19" Id="M5sNY45CloANMUj5NcgVG4">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                       </p:NodeReference>
@@ -1611,7 +1618,7 @@
                     </Node>
                     <ControlPoint Id="GygU25JnXhwLiMBAzD2XeA" Bounds="461,247" />
                     <Node Bounds="685,609,73,19" Id="LaD74iSWJeoNYzyJ5FtWLh">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="MouseMatch (Reactive)" />
                       </p:NodeReference>
@@ -2040,7 +2047,7 @@
                     </Node>
                     <ControlPoint Id="DNzDOa1rCvsOXCwaMpLsXW" Bounds="648,352" />
                     <Node Bounds="805,544,60,19" Id="O4mK0t89Ns1M6LI7Cd6Snb">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                       </p:NodeReference>
@@ -2129,7 +2136,7 @@
                 <Patch Id="M8DZoGiILa1LNSWuqaoWIu">
                   <Canvas Id="OkmHDF1DHeWP1aLbhpNcYk" CanvasType="Group">
                     <Node Bounds="575,405,60,19" Id="GNlmBxZ2BJTPzecq0njUKs">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                       </p:NodeReference>
@@ -2139,7 +2146,7 @@
                     </Node>
                     <ControlPoint Id="ResbkfpWdiYOSpkq4PXEz8" Bounds="577,368" />
                     <Node Bounds="672,405,60,19" Id="V3tO7pTJ2L6M3SK6QDQjii">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                       </p:NodeReference>
@@ -2298,7 +2305,7 @@
                             </Patch>
                             <Patch Id="FZq4Ah3lzV2LgKA88ITbBV" Name="Dispose" ManuallySortedPins="true" />
                             <Node Bounds="526,487,66,26" Id="Q47E4mvWpRGQFG3nfH7tJh">
-                              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="GetPath" />
                               </p:NodeReference>
@@ -2453,8 +2460,8 @@
                     <Pin Id="J12farVzz6TPBcUQ1mU7Gj" Name="Notifications" Kind="InputPin" />
                     <Pin Id="I7HogpUSjAyM1B4pgm0vEv" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="632,842,115,93" Id="De3SuEOV6diPocZhQMoQg4">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="632,932,115,93" Id="De3SuEOV6diPocZhQMoQg4">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2463,9 +2470,9 @@
                     <Patch Id="FbEOqyqDOFZL6tmWtesCfH" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="D25ZzIIaTpdPG6wd7tND03" Name="Arg" Kind="InputPin" />
                       <Pin Id="SvmEbUuXIPaPuvB6PLwc3f" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="RRGArgz6FdVLnQz75GhODy" Bounds="707,850" />
-                      <ControlPoint Id="Vn10MhzuhNEQYOQooCv9S0" Bounds="646,928" />
-                      <Node Bounds="644,880,66,26" Id="D1ShUL3KXPGPVwc6dbXyq1">
+                      <ControlPoint Id="RRGArgz6FdVLnQz75GhODy" Bounds="707,940" />
+                      <ControlPoint Id="Vn10MhzuhNEQYOQooCv9S0" Bounds="646,1018" />
+                      <Node Bounds="644,970,66,26" Id="D1ShUL3KXPGPVwc6dbXyq1">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.PolygonModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="RecordType" Name="PolygonModel" />
@@ -2489,7 +2496,7 @@
                   </Node>
                   <ControlPoint Id="GnNXqW15Hq4PT3lv8UwcKc" Bounds="496,626" />
                   <Node Bounds="642,462,126,19" Id="CDlQv8AjrOUQT5qN1jNEYs">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="RetrieveSelectedPolygon" />
                     </p:NodeReference>
@@ -2505,8 +2512,8 @@
                     <Pin Id="Al5J0NETBwdPArhjFiKaDH" Name="Notifications" Kind="InputPin" />
                     <Pin Id="Mzc6xehoO0tMn32Qh7PKlS" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="822,827,163,135" Id="F5BtQ0AuZaBPMhzxEfuOqz">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="822,917,163,135" Id="F5BtQ0AuZaBPMhzxEfuOqz">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2515,9 +2522,9 @@
                     <Patch Id="TgAYvynRbvYNNE2LM5dLAR" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="Ulo5t68qbcdPS2U3w6KA2n" Name="Arg" Kind="InputPin" />
                       <Pin Id="DugPGhzsUd8QFdNGYGsKQB" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="RhlLpv6UJZ1P7cK3WKJY6f" Bounds="849,835" />
-                      <ControlPoint Id="LiKMnHNMHxDM9kuQeyupPv" Bounds="836,955" />
-                      <Node Bounds="834,902,78,26" Id="L78QxJVQ8m0LSes4UfjtH3">
+                      <ControlPoint Id="RhlLpv6UJZ1P7cK3WKJY6f" Bounds="849,925" />
+                      <ControlPoint Id="LiKMnHNMHxDM9kuQeyupPv" Bounds="836,1045" />
+                      <Node Bounds="834,992,78,26" Id="L78QxJVQ8m0LSes4UfjtH3">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.ApplicationModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="AddPolygon" />
@@ -2527,7 +2534,7 @@
                         <Pin Id="NNKXF0r9IEoOMpDlkxAAja" Name="Item" Kind="InputPin" />
                         <Pin Id="NgwrP62xHJhLbJ7yW7zYdO" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="907,864,66,26" Id="FmfUI4SiNxsL4KazauiovL">
+                      <Node Bounds="907,954,66,26" Id="FmfUI4SiNxsL4KazauiovL">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.PolygonModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2538,7 +2545,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="1098,697,63,19" Id="VPqWD3IzG3aP56JrT4zxNI">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="MovePoint" />
                     </p:NodeReference>
@@ -2546,8 +2553,8 @@
                     <Pin Id="Ik142OcQv79PqCLrTwlZeV" Name="Polygon Model" Kind="InputPin" />
                     <Pin Id="UEbz0Cosbe1ODOS0Ha0ViH" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1058,820,155,130" Id="QNIJzZdYme9Ot6Yt7dZmRm">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="1058,910,155,130" Id="QNIJzZdYme9Ot6Yt7dZmRm">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2556,9 +2563,9 @@
                     <Patch Id="UXbzR7rMKizNnmgYsWkyf0" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="CwxnjgGG1hFPsm07hb08pN" Name="Arg" Kind="InputPin" />
                       <Pin Id="UkjVQsDHtO4MyNYDYbpOCr" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="TIlUBaowaLzLZWcDQR63fK" Bounds="1133,828" />
-                      <ControlPoint Id="JxpCs6kCUtjMc1JFseB2M1" Bounds="1072,943" />
-                      <Node Bounds="1131,845,70,26" Id="HRIRquErDU6NZixVrtpe3v">
+                      <ControlPoint Id="TIlUBaowaLzLZWcDQR63fK" Bounds="1133,918" />
+                      <ControlPoint Id="JxpCs6kCUtjMc1JFseB2M1" Bounds="1072,1033" />
+                      <Node Bounds="1131,935,70,26" Id="HRIRquErDU6NZixVrtpe3v">
                         <p:NodeReference LastCategoryFullName="Primitive.Tuple (2 Items)" LastSymbolSource="CoreLibBasics.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="RecordType" Name="Tuple (2 Items)" />
@@ -2568,7 +2575,7 @@
                         <Pin Id="OgO8xy1uTpnOICmkoeXU3o" Name="Item 1" Kind="OutputPin" />
                         <Pin Id="MTXSwxSMgEwPDQwYDITtrJ" Name="Item 2" Kind="OutputPin" />
                       </Node>
-                      <Node Bounds="1070,892,66,26" Id="Nx6tc9w843QPNalu2IN42h">
+                      <Node Bounds="1070,982,66,26" Id="Nx6tc9w843QPNalu2IN42h">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.PolygonModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="RecordType" Name="PolygonModel" />
@@ -2582,7 +2589,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="1331,701,76,19" Id="T4wQx6zABZEQLY2WCdD2Nx">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="MovePolygon" />
                     </p:NodeReference>
@@ -2590,8 +2597,8 @@
                     <Pin Id="UPfzwJ0d6fiMlJF7WE77pG" Name="Polygon Model" Kind="InputPin" />
                     <Pin Id="UDBzwHPhQSfLyF7X6R3CM2" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1291,843,121,100" Id="G3B7pFjP3CdPn1SicdOeZ8">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="1291,933,121,100" Id="G3B7pFjP3CdPn1SicdOeZ8">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2600,10 +2607,10 @@
                     <Patch Id="IQzc0NczCPdLbskVepy3L9" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="KvL1f18AMPUK9Z1gqnFmVP" Name="Arg" Kind="InputPin" />
                       <Pin Id="M4s5TfIeTtgL0euNvuYuF2" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="AUimkl2UJUkPTJRt8c0vRP" Bounds="1372,851" />
-                      <ControlPoint Id="Lua9eGcjdUON1zgP2qYIg5" Bounds="1305,936" />
-                      <Node Bounds="1303,877,72,26" Id="Bmf972rmJRHQGsHiaNBkdH">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                      <ControlPoint Id="AUimkl2UJUkPTJRt8c0vRP" Bounds="1372,941" />
+                      <ControlPoint Id="Lua9eGcjdUON1zgP2qYIg5" Bounds="1305,1026" />
+                      <Node Bounds="1303,967,72,26" Id="Bmf972rmJRHQGsHiaNBkdH">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="OffsetPoints" />
                         </p:NodeReference>
@@ -2623,19 +2630,19 @@
                     <Pin Id="P8b3YjmgQKhOGlSOPW7DZ2" Name="Polygon Model" Kind="InputPin" />
                     <Pin Id="PuPHaYgjvPHPdzDHmcaRII" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1480,824,124,129" Id="MS5Qqi5TOP8NnBIqOvyL8k">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="1480,914,124,129" Id="MS5Qqi5TOP8NnBIqOvyL8k">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
                     <Pin Id="J2p4TlrCbdOLK0fE9egd6n" Name="Messages" Kind="InputPin" />
                     <Pin Id="UTGhPIrejTeLbQnxWRqacg" Name="Model Reference" Kind="InputPin" />
                     <Patch Id="NBVw6ooNwg3O8u1h5ziv2Q" Name="Operation" ManuallySortedPins="true">
-                      <ControlPoint Id="IUnEKxQPMRPP5fxOViBu7J" Bounds="1494,946" />
+                      <ControlPoint Id="IUnEKxQPMRPP5fxOViBu7J" Bounds="1494,1036" />
                       <Pin Id="NDX0pYV1GFVPUlA0Z6dkCj" Name="Arg" Kind="InputPin" />
                       <Pin Id="PnrkuXhjMnOLMN4kgjsWSV" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="Jwh7D8DFJicMehgjIyV06S" Bounds="1524,832" />
-                      <Node Bounds="1492,900,66,26" Id="JEW9z5G7dlvOm9RRivkC8B">
+                      <ControlPoint Id="Jwh7D8DFJicMehgjIyV06S" Bounds="1524,922" />
+                      <Node Bounds="1492,990,66,26" Id="JEW9z5G7dlvOm9RRivkC8B">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.PolygonModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="InsertPoint" />
@@ -2646,7 +2653,7 @@
                         <Pin Id="JiXGo2mN82MPIPaCk8Z9m0" Name="Item" Kind="InputPin" />
                         <Pin Id="SI5wg7ofARDQcfhrpcJdY5" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="1522,851,70,26" Id="L1pa9EOp0I1MRXVKr2DLxH">
+                      <Node Bounds="1522,941,70,26" Id="L1pa9EOp0I1MRXVKr2DLxH">
                         <p:NodeReference LastCategoryFullName="Primitive.Tuple (2 Items)" LastSymbolSource="CoreLibBasics.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="RecordType" Name="Tuple (2 Items)" />
@@ -2668,19 +2675,19 @@
                     <Pin Id="FsPXfTeUj8ROyg1qeVic6O" Name="Polygon Model" Kind="InputPin" />
                     <Pin Id="TlRcCCgYWetNlyamL4l3ti" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1685,807,124,87" Id="K4lMRee615TQdsMUh3xf9C">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="1685,897,124,87" Id="K4lMRee615TQdsMUh3xf9C">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
                     <Pin Id="VujoXC6lHA0L3a2JKYi9KX" Name="Messages" Kind="InputPin" />
                     <Pin Id="Q9XmxT1rYQwOjVNbruy0e7" Name="Model Reference" Kind="InputPin" />
                     <Patch Id="E6ECBgmdUmLN73MlkyrQNi" Name="Operation" ManuallySortedPins="true">
-                      <ControlPoint Id="SUcnQ0j5leBMDbHcPYea4t" Bounds="1699,887" />
+                      <ControlPoint Id="SUcnQ0j5leBMDbHcPYea4t" Bounds="1699,977" />
                       <Pin Id="VZnESUNnqEWNDZ7BEA6hoe" Name="Arg" Kind="InputPin" />
                       <Pin Id="DwutkqmSCAsOE8WsqLn2qi" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="UiT3zh8fgxAL62bNmdF1wI" Bounds="1769,815" />
-                      <Node Bounds="1697,838,75,26" Id="I2Nv0TJj8LPNRUZs9VkiD1">
+                      <ControlPoint Id="UiT3zh8fgxAL62bNmdF1wI" Bounds="1769,905" />
+                      <Node Bounds="1697,928,75,26" Id="I2Nv0TJj8LPNRUZs9VkiD1">
                         <p:NodeReference LastCategoryFullName="FreePolygonEditor.Model.PolygonModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="RemovePoint" />
@@ -2693,7 +2700,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="1915,694,79,19" Id="CjuO7INfGKoOAgyRjeWzpO">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Triggers" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="SelectPolygon" />
                     </p:NodeReference>
@@ -2701,8 +2708,8 @@
                     <Pin Id="NrSADeYopJ4NGDAetH4ODj" Name="Application Model" Kind="InputPin" />
                     <Pin Id="LmL0NiBd1FWLgoECznmb3r" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="1875,813,178,84" Id="MLVMPoblWnzQZcq8oO134Y">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="1875,903,178,84" Id="MLVMPoblWnzQZcq8oO134Y">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2711,10 +2718,10 @@
                     <Patch Id="GSSWtRIctwtMIvFBnADAH2" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="LFy18a3rcnPLdtb031btL8" Name="Arg" Kind="InputPin" />
                       <Pin Id="N0xc1opJTzeOD7VT7BPqNe" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="FBfEmCT4ugkPMJkElSA5iK" Bounds="2013,821" />
-                      <ControlPoint Id="TakvYDnPgj8NQKnCZ38JnS" Bounds="1889,890" />
-                      <Node Bounds="1887,839,129,26" Id="ON3AABanGxROiNEZ4Z6IeF">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.PolygonEditor.vl">
+                      <ControlPoint Id="FBfEmCT4ugkPMJkElSA5iK" Bounds="2013,911" />
+                      <ControlPoint Id="TakvYDnPgj8NQKnCZ38JnS" Bounds="1889,980" />
+                      <Node Bounds="1887,929,129,26" Id="ON3AABanGxROiNEZ4Z6IeF">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="SetSelectedPolygonIndex" />
                         </p:NodeReference>
@@ -2725,7 +2732,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="2182,694,60,19" Id="OLJCM1judTdQGqoSBV1mPv">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Headless.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="KeyMatch (Reactive)" />
                     </p:NodeReference>
@@ -2737,8 +2744,8 @@
                     </Pin>
                     <Pin Id="H263gc971OYP9yyYVwSu6n" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="2142,784,247,116" Id="BGTnlFm3QVlMoDlaH3apR8">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Node Bounds="2142,874,247,116" Id="BGTnlFm3QVlMoDlaH3apR8">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -2747,10 +2754,10 @@
                     <Patch Id="J8ZpDzzCZQCOwlA23gGwb3" Name="Operation" ManuallySortedPins="true">
                       <Pin Id="T606wWAEjjnMXLM9nS5lPM" Name="Arg" Kind="InputPin" />
                       <Pin Id="CAFaaGP7WtxPQSBvDhW5XL" Name="Result" Kind="OutputPin" />
-                      <ControlPoint Id="BOryFLXVXuYMmRS34hYzFG" Bounds="2156,813" />
-                      <ControlPoint Id="F87XFYpjnB1PlqmLsNxv96" Bounds="2156,893" />
-                      <Node Bounds="2154,846,98,26" Id="GyIGueQokJHPM2WTXcAi5T">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.PolygonEditor.vl">
+                      <ControlPoint Id="BOryFLXVXuYMmRS34hYzFG" Bounds="2156,903" />
+                      <ControlPoint Id="F87XFYpjnB1PlqmLsNxv96" Bounds="2156,983" />
+                      <Node Bounds="2154,936,98,26" Id="GyIGueQokJHPM2WTXcAi5T">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="RemovePolygonAt" />
                         </p:NodeReference>
@@ -2758,7 +2765,7 @@
                         <Pin Id="F0Yqa9hZqzXOwU3es6UBZr" Name="Index" Kind="InputPin" />
                         <Pin Id="RcQ5z02jibmPsoMrtceLzt" Name="Output" Kind="StateOutputPin" />
                       </Node>
-                      <Node Bounds="2247,807,130,26" Id="N90dDcdu0FgPvUbfyFU6EA">
+                      <Node Bounds="2247,897,130,26" Id="N90dDcdu0FgPvUbfyFU6EA">
                         <p:NodeReference LastCategoryFullName="PolygonEditor.Model.ApplicationModel" LastSymbolSource="PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GetSelectedPolygonIndex" />
@@ -2769,7 +2776,7 @@
                       </Node>
                     </Patch>
                   </Node>
-                  <Node Bounds="2142,744,45,19" Id="QEjzv2eXix0PhOb1Youo5a">
+                  <Node Bounds="2142,834,45,19" Id="QEjzv2eXix0PhOb1Youo5a">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2781,7 +2788,7 @@
                     <Pin Id="QyB11pEadwlOD81S10KOXk" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="RNIzC1gdFTpNsqn6t1PxtT" Bounds="2144,414" />
-                  <Node Bounds="1875,772,45,19" Id="I3sngWXoRleMR23P1xEWZh">
+                  <Node Bounds="1875,862,45,19" Id="I3sngWXoRleMR23P1xEWZh">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2793,7 +2800,7 @@
                     <Pin Id="Tkr77V7R4r5PiTN7xlziSJ" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="CLjOgbhvKo6OJdnaoKV7H2" Bounds="1877,414" />
-                  <Node Bounds="1685,763,45,19" Id="U9lS7XF3BYALXQjcz5vP0l">
+                  <Node Bounds="1685,853,45,19" Id="U9lS7XF3BYALXQjcz5vP0l">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2805,7 +2812,7 @@
                     <Pin Id="EKkILBaesaDQHLlrxqmH1F" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="OMbvjqYTecmMmKLG9idIx9" Bounds="1687,414" />
-                  <Node Bounds="1480,776,45,19" Id="EtxJLg3qleWNFfylxriKHv">
+                  <Node Bounds="1480,866,45,19" Id="EtxJLg3qleWNFfylxriKHv">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2817,7 +2824,7 @@
                     <Pin Id="VSlR0uNneOOQLkn5t8chnj" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="PPapkuq1SZyLuMNC6jawvH" Bounds="1481,414" />
-                  <Node Bounds="1291,782,45,19" Id="L64zxkyCHonOlu4fHJG9m8">
+                  <Node Bounds="1291,872,45,19" Id="L64zxkyCHonOlu4fHJG9m8">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2829,7 +2836,7 @@
                     <Pin Id="I7SNnt0pB0VPFgqtrOLlAN" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="NrXgsXrbQIdPTuNeqb6aLs" Bounds="1293,414" />
-                  <Node Bounds="1058,783,45,19" Id="DonDakuHpWoNglBrl1rjPn">
+                  <Node Bounds="1058,873,45,19" Id="DonDakuHpWoNglBrl1rjPn">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2841,7 +2848,7 @@
                     <Pin Id="J7ZagHnhBPVPILoFYBZff3" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="Aexa99az50oMqEFUwVK4Kg" Bounds="1061,414" />
-                  <Node Bounds="822,771,45,19" Id="MN58GM6HDgSQCi4IeD4zcS">
+                  <Node Bounds="822,861,45,19" Id="MN58GM6HDgSQCi4IeD4zcS">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2853,7 +2860,7 @@
                     <Pin Id="QGl9RLHrPrnNzu9GfPYZcl" Name="Output" Kind="OutputPin" />
                   </Node>
                   <ControlPoint Id="Ptg0Nb9RdTROtqxDoDSKdv" Bounds="824,408" />
-                  <Node Bounds="632,790,45,19" Id="Nm2njz384MOOguSVSDolLm">
+                  <Node Bounds="632,880,45,19" Id="Nm2njz384MOOguSVSDolLm">
                     <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -2869,7 +2876,6 @@
                 <Patch Id="VK7v44m0IxIMRFXICSA22B" Name="Create" />
                 <Patch Id="HabR57rQE4dMEFyxeODErd" Name="Update" ManuallySortedPins="true">
                   <Pin Id="MQDh9pinN34P4B2AZdiGc4" Name="Application" Kind="InputPin" Bounds="468,259" />
-                  <Pin Id="Sbpp2k5MG76LvXxmyRIikG" Name="Layer" Kind="OutputPin" Bounds="515,601" />
                   <Pin Id="TUv0r1ZkvQdLMpZ4S0yrxi" Name="Enable Delete Polygon Shortcut" Kind="InputPin" DefaultValue="True" Visibility="Optional">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Boolean" />
@@ -2910,6 +2916,7 @@
                       <Choice Kind="TypeFlag" Name="Boolean" />
                     </p:TypeAnnotation>
                   </Pin>
+                  <Pin Id="Sbpp2k5MG76LvXxmyRIikG" Name="Layer" Kind="OutputPin" Bounds="515,601" />
                 </Patch>
                 <ProcessDefinition Id="GnFWrv7ss7cOWyac2aHK0g">
                   <Fragment Id="ASUKVqWkdvwLuPgx0XM4Id" Patch="VK7v44m0IxIMRFXICSA22B" Enabled="true" />
@@ -3293,7 +3300,7 @@
               <Patch Id="AL6BAXnBwzoOQGLEoPQ8jn">
                 <Canvas Id="RecfsHjAyG2L7JmA9CcqpB" CanvasType="Group">
                   <Node Bounds="495,249" Id="HMRzPUzrbJVLUR5A8pl54a">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetApplicationModelReference" />
                     </p:NodeReference>
@@ -3579,7 +3586,7 @@
                       <ControlPoint Id="NJFx3K2RKmPP287npTto6A" Bounds="606,409" />
                       <ControlPoint Id="QXkN2PIR5mfPQLXk5IhFXo" Bounds="405,535" />
                       <Node Bounds="403,487,132,19" Id="K9OaKVUA0WJNpeN6jfSKeb">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="ReplaceInModelReference" />
                         </p:NodeReference>
@@ -3650,7 +3657,7 @@
                 <Canvas Id="HK0Xbq4WUIzPQmLuvazZcO" CanvasType="Group">
                   <ControlPoint Id="KvkST7ZUcSlQMKTrnjcTcG" Bounds="382,364" />
                   <Node Bounds="380,412,111,19" Id="T66QMkVqfBTNxraVMblsOb">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessNode" Name="GetApplicationModelReference" />
                     </p:NodeReference>
@@ -3658,7 +3665,7 @@
                     <Pin Id="CsCcU8cCE96NeRobSceyrh" Name="Application Model" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="414,589,163,112" Id="KuMDRVb58yyNdMfPkOAEnR">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -3745,7 +3752,7 @@
                 <Link Id="QQEXJE66wGGQHNNmkOfE3S" Ids="LWcJNsgH3ehPafUWFD2mZW,LjWZk5YgHRsNJSFwYX0kno" IsHidden="true" />
               </Patch>
             </Node>
-            <Canvas Id="P90ar0Veh6ZN4pNxzIWXSZ" Name="Utils" Position="377,711">
+            <Canvas Id="P90ar0Veh6ZN4pNxzIWXSZ" Name="Utils" Position="321,723">
               <!--
 
     ************************ GetApplicationModelReference ************************
@@ -3758,7 +3765,7 @@
                 <Patch Id="AhoDKwlZ4YILPuEc5WzCn5">
                   <Canvas Id="MOnWUftKkEiPbtjkg3Qayp" CanvasType="Group">
                     <Node Bounds="411,433,83,26" Id="Uj3yGB0G9klLlHIsOj18xO">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.PolygonEditor" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetApplication" />
                       </p:NodeReference>
@@ -3767,7 +3774,7 @@
                       <Pin Id="S4mUALYWLCrPZJNWYut0gB" Name="Application" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="489,480,155,26" Id="ErlNkkTNw4oPMSD1wtL6Os">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetApplicationModelReference" />
                       </p:NodeReference>
@@ -3833,7 +3840,7 @@
                     <Pin Id="KVRNfvPZ01SPWhVvi9GoLG" Name="Data" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="479,508,178,89" Id="CsmoNquS26QPbHdW4dhRsu">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -3845,7 +3852,7 @@
                       <ControlPoint Id="Hl1fPt0Ko6MNRDMJ6FKN99" Bounds="617,516" />
                       <ControlPoint Id="VYro3ccZyVuL7ePpupzUOq" Bounds="493,590" />
                       <Node Bounds="491,540,129,26" Id="EG7xKQtr8caO6Z2JEG9hXb">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.PolygonEditor.vl">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="SetSelectedPolygonIndex" />
                         </p:NodeReference>
@@ -3927,7 +3934,7 @@
                     <Pin Id="OatxD8dfbucNIXHZwxZKiZ" Name="Data" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="505,600,115,84" Id="OBkWuiPIHd7OaOvbYc7Tjb">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -3939,7 +3946,7 @@
                       <ControlPoint Id="Nho2iy7BtGyPrML8qmKfu8" Bounds="580,608" />
                       <ControlPoint Id="OyShXejTw3XNBvZcDKIzN2" Bounds="519,677" />
                       <Node Bounds="517,628,66,26" Id="OoyIBcGBc4qNctpnn2mupI">
-                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="SetName" />
                         </p:NodeReference>
@@ -3950,7 +3957,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="517,493,126,19" Id="AyG608WxnicLdinxuOHbfM">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="RetrieveSelectedPolygon" />
                     </p:NodeReference>
@@ -4030,7 +4037,7 @@
                     <Pin Id="BlcxjUwMxEzMI6ymWNluPz" Name="Data" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="536,556,115,84" Id="M1aDBHN2XksL7WGkVBc5cF">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="ProcessAppFlag" Name="DataBinding" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -4054,7 +4061,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="548,476,126,19" Id="OzWfUmwPBIGN1GTgdAC5jm">
-                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="RetrieveSelectedPolygon" />
                     </p:NodeReference>
@@ -4101,9 +4108,118 @@
                 <Link Id="RUvn7YFksuELxR768akmKm" Ids="LM0usa5OHNrLT1wJ2BmG0W,HEN11sX1R1fOitCs9cmIjq" IsHidden="true" />
               </Patch>
             </Node>
+            <!--
+
+    ************************ SetPolygon ************************
+
+-->
+            <Node Name="SetPolygon" Bounds="321,649" Id="I12qMtRVmYSK9otX3B5ydg">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+                <Choice Kind="ContainerDefinition" Name="Process" />
+              </p:NodeReference>
+              <Patch Id="K0L1DVGHORnMRyDTuiLBc4">
+                <Canvas Id="AqWIG3p3KwNPD7ExnzeahM" CanvasType="Group">
+                  <Node Bounds="352,266" Id="GIPG2dzZXKyQPHJ7TUF7Ec">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="GetApplicationModelReference" />
+                      <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                    </p:NodeReference>
+                    <Pin Id="ArSfZ3g3eO8PeKi0iJNxqF" Name="Input" Kind="InputPin" />
+                    <Pin Id="Ojov2C25Tr5Pf97K40qYrx" Name="Application Model" Kind="OutputPin" />
+                  </Node>
+                  <ControlPoint Id="U4wWUQuEkYnOkzqoN1QB3o" Bounds="354,238" />
+                  <Node Bounds="398,338,126,19" Id="KXqxDGl6HVYMcQnGCO7Xuv">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="RetrieveSelectedPolygon" />
+                    </p:NodeReference>
+                    <Pin Id="VYfEMeHEJfVMRUNqEtiBpQ" Name="Input" Kind="InputPin" />
+                    <Pin Id="KfWejC0ZwfOOdDWViuqzd3" Name="Output" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="352,299,51,26" Id="OaVeboRVmjNNf1NKhs6T8s">
+                    <p:NodeReference LastCategoryFullName="Primitive.Reference" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="Data" />
+                      <CategoryReference Kind="ClassType" Name="Reference" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="CwwBY1AosUiL4eCAS7HgOw" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="LuleP38KT4YPENlzeRGMt5" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="ADX5DUcwS1oNgzc11mKJtw" Name="Data" Kind="OutputPin" />
+                  </Node>
+                  <Node Bounds="386,450,115,84" Id="QbOKLmfHqUTQMI2cZWAeal">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                      <Choice Kind="ProcessAppFlag" Name="DataBinding" />
+                      <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                    </p:NodeReference>
+                    <Pin Id="LGfhGPb1AAhMtaliLRGOYr" Name="Messages" Kind="InputPin" />
+                    <Pin Id="SZY2pDtap86MkZugtcNcyR" Name="Model Reference" Kind="InputPin" />
+                    <Patch Id="G5P2pxYTUtCNbtLFW65pdy" Name="Operation" ManuallySortedPins="true">
+                      <Pin Id="FBceviWEhY0Lv7FY1qVt34" Name="Arg" Kind="InputPin" />
+                      <Pin Id="Ii23ioNbsGsOMsmaTybUxh" Name="Result" Kind="OutputPin" />
+                      <ControlPoint Id="CALBnBX3JiOMHNNeccm8oU" Bounds="461,458" />
+                      <ControlPoint Id="ONDXQDLI6wyMP3bmQeQSiw" Bounds="400,527" />
+                      <Node Bounds="398,477,66,26" Id="NnMgRumTsaGOsvhq4k1Qv8">
+                        <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="SetPoints" />
+                        </p:NodeReference>
+                        <Pin Id="GTCeY7pHds1Pb8cw1fYrNF" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="Gl1COqUzKRUNly6v04LPWr" Name="Points" Kind="InputPin" />
+                        <Pin Id="G1nL3kM360AQEDE5iB5zKm" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                    </Patch>
+                  </Node>
+                  <Node Bounds="578,337,79,19" Id="BrQrQHyoe7MOBOUlRN43ti">
+                    <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="ToObservable" />
+                      <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="DB3SbkSg4ELQHNV9U16LuX" Name="Message" Kind="InputPin" />
+                    <Pin Id="O3jLcksnpM1NIxECs8qfag" Name="Send" Kind="InputPin" />
+                    <Pin Id="FQ55u5SevSeOm8stStI0MH" Name="Result" Kind="OutputPin" />
+                  </Node>
+                  <ControlPoint Id="L9zg4VkZwXfPmgztHzMg19" Bounds="580,312" />
+                  <ControlPoint Id="U5yjrvkOXPhL8NogeBmq7l" Bounds="654,312" />
+                </Canvas>
+                <Patch Id="D2jKNClcqh5QdHknY4eXFS" Name="Create" />
+                <Patch Id="VboUtQAFrOhPeqV3bqkYLg" Name="Update">
+                  <Pin Id="AKK2iot8ylTQYE8Ggo4Uhs" Name="Input" Kind="InputPin" Bounds="357,231" />
+                  <Pin Id="GvPprUmfuF4QKe9wWSMxaq" Name="Points" Kind="InputPin" Bounds="595,303" />
+                  <Pin Id="CYZAAMwokKPPIPPwff1E81" Name="Send" Kind="InputPin" Bounds="662,309" />
+                </Patch>
+                <!--
+
+    ************************  ************************
+
+-->
+                <ProcessDefinition Id="OL8BEJewdMvPKlHBaXSUtP">
+                  <Fragment Id="CWbpR5T8VMcQdC4W8yQf97" Patch="D2jKNClcqh5QdHknY4eXFS" Enabled="true" />
+                  <Fragment Id="An135egfyOSQAxvYmTTGL7" Patch="VboUtQAFrOhPeqV3bqkYLg" Enabled="true" />
+                </ProcessDefinition>
+                <Link Id="EUyEZKSUW3bP0Yzv01XMM0" Ids="U4wWUQuEkYnOkzqoN1QB3o,ArSfZ3g3eO8PeKi0iJNxqF" />
+                <Link Id="CRAEdepnPqIOqNDshZ4dE5" Ids="AKK2iot8ylTQYE8Ggo4Uhs,U4wWUQuEkYnOkzqoN1QB3o" IsHidden="true" />
+                <Link Id="G4jSfT4eAmiLRSuNjmAoBT" Ids="Ojov2C25Tr5Pf97K40qYrx,CwwBY1AosUiL4eCAS7HgOw" />
+                <Link Id="OSG8M8AhG0hNUIqYnSG8sv" Ids="ADX5DUcwS1oNgzc11mKJtw,VYfEMeHEJfVMRUNqEtiBpQ" />
+                <Link Id="GCVAvhsAILaNdrsZOd5rkU" Ids="FBceviWEhY0Lv7FY1qVt34,CALBnBX3JiOMHNNeccm8oU" IsHidden="true" />
+                <Link Id="QzLxMzgQJvfNOPJiMiOpWh" Ids="ONDXQDLI6wyMP3bmQeQSiw,Ii23ioNbsGsOMsmaTybUxh" IsHidden="true" />
+                <Link Id="V6CE2LLU6JBPYohx0GIBKK" Ids="CALBnBX3JiOMHNNeccm8oU,Gl1COqUzKRUNly6v04LPWr" />
+                <Link Id="NOPonSCFCsgOwG8taUMmAB" Ids="LuleP38KT4YPENlzeRGMt5,SZY2pDtap86MkZugtcNcyR" />
+                <Link Id="Td2X0hDuc0mPmesYoZ15w3" Ids="KfWejC0ZwfOOdDWViuqzd3,GTCeY7pHds1Pb8cw1fYrNF" />
+                <Link Id="O55abncUkwcLSgamxXBZAQ" Ids="G1nL3kM360AQEDE5iB5zKm,ONDXQDLI6wyMP3bmQeQSiw" />
+                <Link Id="H2xwBZvmM6sNEGyc6xe9Ys" Ids="FQ55u5SevSeOm8stStI0MH,LGfhGPb1AAhMtaliLRGOYr" />
+                <Link Id="IbCYEIXUtToNHjO9MeAvix" Ids="L9zg4VkZwXfPmgztHzMg19,DB3SbkSg4ELQHNV9U16LuX" />
+                <Link Id="OymJugKXo0vPQeTjSgxi45" Ids="GvPprUmfuF4QKe9wWSMxaq,L9zg4VkZwXfPmgztHzMg19" IsHidden="true" />
+                <Link Id="VX0aTlL4BRTL4LGNuetG1E" Ids="U5yjrvkOXPhL8NogeBmq7l,O3jLcksnpM1NIxECs8qfag" />
+                <Link Id="PPjIdJgMhhIOVWno2LQZz8" Ids="CYZAAMwokKPPIPPwff1E81,U5yjrvkOXPhL8NogeBmq7l" IsHidden="true" />
+              </Patch>
+            </Node>
           </Canvas>
         </Canvas>
-        <Canvas Id="Vb4vqwBzN4QPgjrGwDkGe1" Name="Utils" Position="498,733">
+        <Canvas Id="Vb4vqwBzN4QPgjrGwDkGe1" Name="Utils" Position="495,729">
           <!--
 
     ************************ SyncToModel (Key) ************************
@@ -4709,7 +4825,7 @@
                         <Patch Id="Vd0TndsExqVQMvqC3kDfSJ" Name="Update" ManuallySortedPins="true" />
                         <Patch Id="Ft0aIENyqYMPgzXxtXWJgO" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="571,816,66,26" Id="JP5azKe3VeGLQUjJpSQGiC">
-                          <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                          <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetPath" />
                           </p:NodeReference>
@@ -4764,7 +4880,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Canvas Id="RYtdUuIGqW1Lq729aliCUx" Name="Application" Position="498,658">
+        <Canvas Id="RYtdUuIGqW1Lq729aliCUx" Name="Application" Position="495,655">
           <!--
 
     ************************ Application ************************
@@ -4796,7 +4912,7 @@
                 <Pad Id="IMg4KZz0sPHMLiRgpH4qNe" SlotId="BVdqBIFYhk7OXPIoY2QQdd" Bounds="379,418" />
                 <ControlPoint Id="C3JtkLkCAYpPW2MS4Y46qc" Bounds="379,662" />
                 <Node Bounds="553,587,105,19" Id="HGo8Ejw35arPLrtNGilzT2">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Runtime" LastSymbolSource="VL.PolygonEditor.vl">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Runtime" LastSymbolSource="VL.2D.PolygonEditor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="ApplicationRuntime" />
                   </p:NodeReference>
@@ -4818,7 +4934,7 @@
                   <Pin Id="PXYHdO1ZdNnMDVPbNENnOS" Name="Data" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="674,517,78,26" Id="AVKDnHWP8tvOYuKtYsZxyM">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.PolygonEditor.vl">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.ApplicationModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetEnable" />
                   </p:NodeReference>
@@ -4877,7 +4993,7 @@
               <Canvas Id="GRMVL2YlHmYLyyF2Qpa1DK" CanvasType="Group">
                 <ControlPoint Id="VradU9nqXtMOs6EDaFeFSO" Bounds="612,263" />
                 <Node Bounds="610,291,70,26" Id="LL5zfcdU0fLN6hanLTjchr">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.PolygonEditor.vl">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetRuntime" />
                   </p:NodeReference>
@@ -4909,7 +5025,7 @@
                     </Patch>
                     <Patch Id="OYZiWl5194AOwHWmOIgLuu" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="756,581,84,19" Id="DYsedZ2zaMLObvqfuy0lsA">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Application" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="PolygonDrawer" />
                       </p:NodeReference>
@@ -5097,7 +5213,7 @@
                       <Pin Id="VhJdz55aU2APu6Ges29fU3" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="905,453,66,26" Id="JeDK7l3tPQIM2vIf4D2pFH">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetName" />
                       </p:NodeReference>
@@ -5138,7 +5254,7 @@
                       <Pin Id="Q9mL0ZwmkW5MWHTG5cW25B" Name="Center" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="621,453,66,26" Id="GOXazhi3m8nMmwZWxfRBSx">
-                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
+                      <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="GetColor" />
                       </p:NodeReference>
@@ -5226,310 +5342,501 @@
             </Patch>
           </Node>
         </Canvas>
-      </Canvas>
-      <!--
+        <Canvas Id="Pb7ecOev4kCNCXubyFgVzY" Name="Events" Position="495,803">
+          <!--
 
-    ************************ AddPolygon ************************
+    ************************ OnPolygonModified ************************
 
 -->
-      <Node Name="AddPolygon" Bounds="276,728" Id="JVTyXhBu4hvLoeCzxrP4RD" Summary="Adds a polygon to the input PolygonEditor">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="FwoxxC5nxPEMo0fI2ldn2Z">
-          <Canvas Id="JsogoLfLzBJPru5FRK5SOj" CanvasType="Group">
-            <Node Bounds="372,550,70,22" Id="D4qEL7SOYcQQTd0CDkfFXP">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                <Choice Kind="ApplicationStatefulRegion" Name="If" />
-                <FullNameCategoryReference ID="Primitive" />
-              </p:NodeReference>
-              <Pin Id="GPictByWsETOngkhhigh8Y" Name="Condition" Kind="InputPin" />
-              <Patch Id="MNJud8ye5rGNLUJQjQ3EJK" ManuallySortedPins="true">
-                <Patch Id="GMQ3LVh7ZhTNx7jC24Ydnm" Name="Create" ManuallySortedPins="true" />
-                <Patch Id="EgLXDrBllkvLAGSnHUlE6m" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="372,553" Id="Bps9t5HBWHyPc4JEnPEVUv">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Name="OnPolygonModified" Bounds="367,446" Id="BVUpS53eae3OIAO1Iq8Piy">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+              <Choice Kind="ContainerDefinition" Name="Process" />
+            </p:NodeReference>
+            <Patch Id="Oz0W5bkLKuuNn3PeytMnby">
+              <Canvas Id="U2AqnF4cvLeQZI1BvlO3tk" CanvasType="Group">
+                <Node Bounds="371,325" Id="FlavloRWXkWNf5UNWYQwI9">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AddPolygon" />
-                    <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                    <Choice Kind="ProcessAppFlag" Name="GetApplicationModelReference" />
+                    <CategoryReference Kind="Category" Name="Utils" NeedsToBeDirectParent="true">
+                      <p:OuterCategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                    </CategoryReference>
                   </p:NodeReference>
-                  <Pin Id="MNYEKA1WHQpLMpGxtHpFJf" Name="Input" Kind="InputPin" />
-                  <Pin Id="BRzUiynHXm4LaTOVzdkpJe" Name="Add" Kind="InputPin" DefaultValue="True">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="Boolean" />
-                    </p:TypeAnnotation>
-                  </Pin>
+                  <Pin Id="SVnvKlC3dIXLrUqqg0VyCc" Name="Input" Kind="InputPin" />
+                  <Pin Id="SIiaQejhVCMOkTTKRZIJBR" Name="Application Model" Kind="OutputPin" />
                 </Node>
+                <ControlPoint Id="TruN2ZnmyzFOAp56KjNaDK" Bounds="373,297" />
+                <Node Bounds="417,419,126,19" Id="I8NhoiRuMl9PlHxwdJv76C">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="RetrieveSelectedPolygon" />
+                  </p:NodeReference>
+                  <Pin Id="LUNPstaO9eBMGjCPI710Hs" Name="Input" Kind="InputPin" />
+                  <Pin Id="Kb0aRqWchyrPoDPMrISDh9" Name="Output" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="371,365,51,26" Id="FqfXozXkMr6PloBwLxvEWk">
+                  <p:NodeReference LastCategoryFullName="Primitive.Reference" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Data" />
+                    <CategoryReference Kind="ClassType" Name="Reference" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="DXh5oMb8XAUNzzW5Dd0K6K" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="OZHg4dHTKgsO3SddHEeiBq" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="B1sE0MVTVf6MmJCaN0i0Bz" Name="Data" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="502,484,57,19" Id="Q7GUaOrMA6sQVvlYawWVJu">
+                  <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="Changed" />
+                  </p:NodeReference>
+                  <Pin Id="SZP9ObHumANPKR8KZktrxB" Name="Value" Kind="InputPin" />
+                  <Pin Id="M0LQ9GxuPUXLrjT4hcDLNg" Name="Result" Kind="OutputPin" />
+                  <Pin Id="Ay9OLyCN66dP67aKK5G1ZE" Name="Unchanged" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="417,564,89,19" Id="PeAAX5RoiNsO4dRyluSl7T">
+                  <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="ToObservable" />
+                  </p:NodeReference>
+                  <Pin Id="HWp7tradJAJLwRGxUlX7XN" Name="Message" Kind="InputPin" />
+                  <Pin Id="DlWM1QXG3tBNIDSf4X0nXB" Name="Send" Kind="InputPin" />
+                  <Pin Id="VMpoPt2H0djLLeEJghJTWN" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="417,514,66,26" Id="LXmMdpxvLq0MNc4De7veE6">
+                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="GetPath" />
+                  </p:NodeReference>
+                  <Pin Id="PvETFUnQLxSPO6svl7rLCm" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="OnrKgYqwCIzO0SjvHQysNO" Name="Close" Kind="InputPin" />
+                  <Pin Id="E9bcAAiyFn1PYO3IgkXOH4" Name="Path" Kind="OutputPin" />
+                </Node>
+                <ControlPoint Id="DQPm2ex1CIlQUvIcwBCJ25" Bounds="419,619" />
+              </Canvas>
+              <Patch Id="FNtHHNWVeKHLlLryM4ZPsY" Name="Create" />
+              <Patch Id="OwkIgeAmV1UO8dQXKuDd2J" Name="Update">
+                <Pin Id="TcG9PPREH9SNbKEI5CAvW6" Name="Input" Kind="InputPin" Bounds="390,282" />
+                <Pin Id="RGawJQFMl3yLcJXIsOheJX" Name="Result" Kind="OutputPin" Bounds="412,635" />
               </Patch>
-            </Node>
-            <ControlPoint Id="G9cjBq3x058OtGN4TcQKId" Bounds="374,496" />
-            <ControlPoint Id="Jk9Kd391tY4McZDaSVVDp7" Bounds="320,476" />
-          </Canvas>
-          <Patch Id="URzKp9SNEtAOOG5SBwUfI1" Name="Create" />
-          <Patch Id="JZKqZB3FEkZPIhLnn9Y9k6" Name="Update" ManuallySortedPins="true">
-            <Pin Id="VS8PiI4eKnhPmo6lUt2PW3" Name="Input" Kind="InputPin" Bounds="389,489" />
-            <Pin Id="BMs0ri5GVx3O8HesFAC5vr" Name="Add" Kind="InputPin" Bounds="332,488" />
-          </Patch>
-          <ProcessDefinition Id="KyCegRzUSfRNnSxLsZ2PiQ">
-            <Fragment Id="FO3t8gJSfNoMlDL9TxMOJp" Patch="URzKp9SNEtAOOG5SBwUfI1" Enabled="true" />
-            <Fragment Id="MO4NQgkZHqEOXc3UybliLx" Patch="JZKqZB3FEkZPIhLnn9Y9k6" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="Ud40TWAlBzSLigyYyM0RUo" Ids="G9cjBq3x058OtGN4TcQKId,MNYEKA1WHQpLMpGxtHpFJf" />
-          <Link Id="B8AFWNoEwDLMHRwWrWT8o7" Ids="VS8PiI4eKnhPmo6lUt2PW3,G9cjBq3x058OtGN4TcQKId" IsHidden="true" />
-          <Link Id="T6R9A6HHLO7LXQjTEpWO2V" Ids="Jk9Kd391tY4McZDaSVVDp7,GPictByWsETOngkhhigh8Y" />
-          <Link Id="Fwy15CmGZuOPEWvHpPflAD" Ids="BMs0ri5GVx3O8HesFAC5vr,Jk9Kd391tY4McZDaSVVDp7" IsHidden="true" />
-        </Patch>
-      </Node>
-      <!--
+              <ProcessDefinition Id="UtXcXITqGnkLZS5LIj3v7g">
+                <Fragment Id="MO8iwK3zQB2O3cValJJjQN" Patch="FNtHHNWVeKHLlLryM4ZPsY" Enabled="true" />
+                <Fragment Id="P6CCx7dMXCZMOMVJPaCHoq" Patch="OwkIgeAmV1UO8dQXKuDd2J" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="NRTSUQSlqGxNcsUeT5jiqC" Ids="TruN2ZnmyzFOAp56KjNaDK,SVnvKlC3dIXLrUqqg0VyCc" />
+              <Link Id="DvDLgWKuooHOWPS3VVvmE4" Ids="TcG9PPREH9SNbKEI5CAvW6,TruN2ZnmyzFOAp56KjNaDK" IsHidden="true" />
+              <Link Id="IckJfvBZkESNXSrt38EmUG" Ids="SIiaQejhVCMOkTTKRZIJBR,DXh5oMb8XAUNzzW5Dd0K6K" />
+              <Link Id="T9JcIEUu1yAPew0bXYZx0R" Ids="B1sE0MVTVf6MmJCaN0i0Bz,LUNPstaO9eBMGjCPI710Hs" />
+              <Link Id="DyHPOHekrHFQAShljM5F7J" Ids="Kb0aRqWchyrPoDPMrISDh9,SZP9ObHumANPKR8KZktrxB" />
+              <Link Id="I2ch0vaj2qdLROQ3jGNhUv" Ids="Kb0aRqWchyrPoDPMrISDh9,PvETFUnQLxSPO6svl7rLCm" />
+              <Link Id="ENCtFOSRkhgMhzuortvJuF" Ids="E9bcAAiyFn1PYO3IgkXOH4,HWp7tradJAJLwRGxUlX7XN" />
+              <Link Id="VJGooRrdZd3OYayV6Gz4sL" Ids="M0LQ9GxuPUXLrjT4hcDLNg,DlWM1QXG3tBNIDSf4X0nXB" />
+              <Link Id="GVdwZgEzosYO995xThv9Z9" Ids="VMpoPt2H0djLLeEJghJTWN,DQPm2ex1CIlQUvIcwBCJ25" />
+              <Link Id="Shbx8O84IacOF02JPjPmTT" Ids="DQPm2ex1CIlQUvIcwBCJ25,RGawJQFMl3yLcJXIsOheJX" IsHidden="true" />
+            </Patch>
+          </Node>
+        </Canvas>
+      </Canvas>
+      <Canvas Id="OnZSb0hcZ3nP5W7TnmSAEk" Name="Events" Position="260,829">
+        <!--
 
-    ************************ SelectPolygon ************************
-
--->
-      <Node Name="SelectPolygon" Bounds="276,773" Id="FYRcqHnzyAOO8ZpAY5njdV" Summary="Selects a polygon from the input PolygonEditor">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="UKV3zIh6ProPl94m6aVfRg">
-          <Canvas Id="PjxufKQw07pOQVvpD6FrN7" CanvasType="Group">
-            <Node Bounds="502,553" Id="CamRR1HIabDMUEp1I2cQn4">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="SelectPolygon" />
-                <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="TCGM7jMly36PPkVk3bBapA" Name="Input" Kind="InputPin" />
-              <Pin Id="FP1f1ueNEsWLxvti0Z6Vpu" Name="Index" Kind="InputPin" />
-              <Pin Id="D3FFKKe8MBcPGI6WgevXTX" Name="Update" Kind="InputPin" />
-            </Node>
-            <ControlPoint Id="HD0qsBgvJTeLVi45TB9p7n" Bounds="465,521" />
-            <ControlPoint Id="UMpw452VnIhNZQgpaa40aX" Bounds="541,521" />
-            <ControlPoint Id="J5FClXwD3AdMG9mR1YHzsr" Bounds="620,521" />
-          </Canvas>
-          <Patch Id="FR9T90XklhgPVFkxq8pXDv" Name="Create" />
-          <Patch Id="Aot2PvXAYr0M88FQQG2axO" Name="Update">
-            <Pin Id="ByXlhyoSJHBPYx0rAfM1xH" Name="Input" Kind="InputPin" Bounds="463,520" />
-            <Pin Id="T4b54AAl0M8LTdfv8i5air" Name="Index" Kind="InputPin" Bounds="549,520" />
-            <Pin Id="Lu5ME2zxXQdLW1A9lTQRx0" Name="Update" Kind="InputPin" Bounds="620,534" />
-          </Patch>
-          <ProcessDefinition Id="QiTNRpOlo24N3TUe1hO6dh">
-            <Fragment Id="OIDe1NVEgxSQVTwtSN3WIw" Patch="FR9T90XklhgPVFkxq8pXDv" Enabled="true" />
-            <Fragment Id="I8liDVFfRzsLOc04KC6rOD" Patch="Aot2PvXAYr0M88FQQG2axO" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="OQ8ScsLYvptLW5MGGUg5kV" Ids="HD0qsBgvJTeLVi45TB9p7n,TCGM7jMly36PPkVk3bBapA" />
-          <Link Id="ItspI5i2OmMNj4TF7mOiaM" Ids="ByXlhyoSJHBPYx0rAfM1xH,HD0qsBgvJTeLVi45TB9p7n" IsHidden="true" />
-          <Link Id="KT8234WSkZgN3vQUrm50RH" Ids="UMpw452VnIhNZQgpaa40aX,FP1f1ueNEsWLxvti0Z6Vpu" />
-          <Link Id="QikdN8wAVf2MpIRKz2dUZh" Ids="T4b54AAl0M8LTdfv8i5air,UMpw452VnIhNZQgpaa40aX" IsHidden="true" />
-          <Link Id="RGsYGSvxIOYMWNu1kX7WMV" Ids="J5FClXwD3AdMG9mR1YHzsr,D3FFKKe8MBcPGI6WgevXTX" />
-          <Link Id="TWvLVYuCqQwOkQaI66EbZ4" Ids="Lu5ME2zxXQdLW1A9lTQRx0,J5FClXwD3AdMG9mR1YHzsr" IsHidden="true" />
-        </Patch>
-      </Node>
-      <!--
-
-    ************************ SetPolygonName ************************
+    ************************ OnPolygonModified ************************
 
 -->
-      <Node Name="SetPolygonName" Bounds="276,818" Id="FCSZNtv2Y75QFYv6Uqhrqd" Summary="Sets the selected Polygon name" Remarks="Use SelectPolygon to focus one of the available polygons">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="NML4knU1sDqMmceY2IhWQN">
-          <Canvas Id="OwVsPrP5LriLRs77x5GoPm" CanvasType="Group">
-            <Node Bounds="493,595" Id="QAS3JBU9yGWQNWTd9xbLpB">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="SetPolygonName" />
-                <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="KRfyJzSMXeOP8nOD23Z4az" Name="Input" Kind="InputPin" />
-              <Pin Id="U7i3zyhVSKmL2cdXHb09hk" Name="Name" Kind="InputPin" />
-              <Pin Id="P9NWqltScoFNJ55YGen5kG" Name="Apply" Kind="InputPin" />
-            </Node>
-            <ControlPoint Id="HODEumbkLTzMzvC9bTohwm" Bounds="475,574" />
-            <ControlPoint Id="C4qmgTgf8LBPuILrIhr881" Bounds="539,573" />
-            <ControlPoint Id="V8SVysg7jInLYn0CYxlDOO" Bounds="596,573" />
-          </Canvas>
-          <Patch Id="GvGSUR5NT9nPXJIta92SYW" Name="Create" />
-          <Patch Id="EJgFcEkp1nNNDdPnobNBf0" Name="Update">
-            <Pin Id="PTDdaUtihGVNdJXRCr8QL5" Name="Input" Kind="InputPin" Bounds="470,574" />
-            <Pin Id="PED6dE7Zp9xNMYgau1h2Sb" Name="Name" Kind="InputPin" Bounds="545,564" />
-            <Pin Id="T74BBwjUtBKPym9AeaDJVQ" Name="Apply" Kind="InputPin" Bounds="604,573" />
-          </Patch>
-          <ProcessDefinition Id="PZdl0YeUQiHMh1nJoBroIS">
-            <Fragment Id="KWu0BhIUGuFOS9eIxwgwNz" Patch="GvGSUR5NT9nPXJIta92SYW" Enabled="true" />
-            <Fragment Id="EYSyOMlc8s9PcQBBvu6VYQ" Patch="EJgFcEkp1nNNDdPnobNBf0" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="FnMp21nuPG5OtK3VwCvX7s" Ids="HODEumbkLTzMzvC9bTohwm,KRfyJzSMXeOP8nOD23Z4az" />
-          <Link Id="PJZAWr8OE48OQFacjlZxb1" Ids="PTDdaUtihGVNdJXRCr8QL5,HODEumbkLTzMzvC9bTohwm" IsHidden="true" />
-          <Link Id="Tay3ZGSTVJ5NCQlrkydWec" Ids="C4qmgTgf8LBPuILrIhr881,U7i3zyhVSKmL2cdXHb09hk" />
-          <Link Id="UNTj0jdUyuQLO17mr8v364" Ids="PED6dE7Zp9xNMYgau1h2Sb,C4qmgTgf8LBPuILrIhr881" IsHidden="true" />
-          <Link Id="Gjb1lK1G49HPPWtQxFI0LU" Ids="V8SVysg7jInLYn0CYxlDOO,P9NWqltScoFNJ55YGen5kG" />
-          <Link Id="Sijccl9vEa0OtVIMWUXhTo" Ids="T74BBwjUtBKPym9AeaDJVQ,V8SVysg7jInLYn0CYxlDOO" IsHidden="true" />
-        </Patch>
-      </Node>
-      <!--
+        <Node Name="OnPolygonModified" Bounds="69,108" Id="FCqQcCyoJCIOaB6e5HXMPu" Summary="Outputs an observable with the state of the selected polygon when it's modified">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="MCG81HPrRAJLCs0pXVu2y2">
+            <Canvas Id="RH04JlxQ1mWMVwtYi6Unk0" CanvasType="Group">
+              <Node Bounds="602,498" Id="RmVLBcGK02OLRtG1p6wc7j">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Events" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="OnPolygonModified" />
+                  <PinReference Kind="InputPin" Name="Input" />
+                  <PinReference Kind="OutputPin" Name="Result" />
+                </p:NodeReference>
+                <Pin Id="C3dVgXvY93qLisf8qbUhvW" Name="Input" Kind="InputPin" />
+                <Pin Id="MhhPhHLla3eN7ugkgYECmb" Name="Result" Kind="OutputPin" />
+              </Node>
+              <ControlPoint Id="EE1l9qrtT2eLnQ06mkA1N9" Bounds="604,477" />
+              <ControlPoint Id="AzVYV51deuoNDTnw9MY8Io" Bounds="604,540" />
+            </Canvas>
+            <Patch Id="HtRtbkwKPbKOnwcqcAIKzH" Name="Create" />
+            <Patch Id="RT44Kujy6xpPBoruigPxG0" Name="Update">
+              <Pin Id="JaQf7uNiGk5MlliSbDKHaL" Name="Input" Kind="InputPin" Bounds="623,466" />
+              <Pin Id="Rrm0okp4enMMpSz2eesNMu" Name="Event" Kind="OutputPin" Bounds="602,548" />
+            </Patch>
+            <!--
 
-    ************************ SetPolygonColor ************************
+    ************************  ************************
 
 -->
-      <Node Name="SetPolygonColor" Bounds="276,863" Id="QQCG3h9yrTkMskpcBR1iQ3" Summary="Sets the color of the selected Polygon." Remarks="Use SelectPolygon to select a specific polygon">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="LK8dqx5pCZOMQJKaH7H4gT">
-          <Canvas Id="Rwik1audPMoNrPFa2IcdRs" CanvasType="Group">
-            <Node Bounds="586,451" Id="M3CTUas2td5Oqz0fttFylW">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="SetPolygonColor" />
-                <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
-              </p:NodeReference>
-              <Pin Id="AyuN1Y2ArB5MfwR0IcAVd5" Name="Input" Kind="InputPin" />
-              <Pin Id="GDScJ7XSgACMuMGghlfSy3" Name="Color" Kind="InputPin" />
-              <Pin Id="Ua4Rj8DRcaeLVWbOm8lJiu" Name="Apply" Kind="InputPin" />
-            </Node>
-            <ControlPoint Id="F9A1ABLQrhNOP9Zy8EFKGu" Bounds="564,421" />
-            <ControlPoint Id="RMAiQYCVrlmNfgqdEHQqkD" Bounds="630,422" />
-            <ControlPoint Id="K5rRZz6a6RPNeStHXOYOt4" Bounds="701,418" />
-          </Canvas>
-          <Patch Id="Nk1WNEtPwerQN6gyUT7Vfq" Name="Create" />
-          <Patch Id="EdooIt6Lw1HNAKkZK6ksEt" Name="Update">
-            <Pin Id="Rii4cK8VT2MPyyOnelkejB" Name="Input" Kind="InputPin" Bounds="543,423" />
-            <Pin Id="CX8MzvpvjXzNjrcwWgvEz1" Name="Color" Kind="InputPin" Bounds="634,412" />
-            <Pin Id="BE6s1PuvNiNOyyLdZAyboq" Name="Apply" Kind="InputPin" Bounds="701,411" />
+            <ProcessDefinition Id="S2W9ZNB0EsBMtf41acD2oS">
+              <Fragment Id="PXzsqSyrTk7Mkfj3SDYQUr" Patch="HtRtbkwKPbKOnwcqcAIKzH" Enabled="true" />
+              <Fragment Id="I9nuSx14oTXLfWq7NQPE16" Patch="RT44Kujy6xpPBoruigPxG0" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="HG055HkN2sPQKOLGltF6SF" Ids="EE1l9qrtT2eLnQ06mkA1N9,C3dVgXvY93qLisf8qbUhvW" />
+            <Link Id="UhP6dUq5g2dLc7y33iZrW0" Ids="JaQf7uNiGk5MlliSbDKHaL,EE1l9qrtT2eLnQ06mkA1N9" IsHidden="true" />
+            <Link Id="MMpYbxA9ZJEQUSfzMcbRLl" Ids="MhhPhHLla3eN7ugkgYECmb,AzVYV51deuoNDTnw9MY8Io" />
+            <Link Id="C1WO8pLaZt9PebuaxbuZft" Ids="AzVYV51deuoNDTnw9MY8Io,Rrm0okp4enMMpSz2eesNMu" IsHidden="true" />
           </Patch>
-          <ProcessDefinition Id="PSh8Bu6eEQuPkfKYslg056">
-            <Fragment Id="UzHHC8y0MptQVCOkvHzxRa" Patch="Nk1WNEtPwerQN6gyUT7Vfq" Enabled="true" />
-            <Fragment Id="NZ7ZJAmui16OXrYVc4RrcY" Patch="EdooIt6Lw1HNAKkZK6ksEt" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="F4jsoP61EAjPQk7ApHSyoq" Ids="F9A1ABLQrhNOP9Zy8EFKGu,AyuN1Y2ArB5MfwR0IcAVd5" />
-          <Link Id="AR9yDKJCggIMriu1nYuz3T" Ids="Rii4cK8VT2MPyyOnelkejB,F9A1ABLQrhNOP9Zy8EFKGu" IsHidden="true" />
-          <Link Id="LhqoVM4K5nAMiGnG32rvq7" Ids="RMAiQYCVrlmNfgqdEHQqkD,GDScJ7XSgACMuMGghlfSy3" />
-          <Link Id="VgIDfEcVmDjOP36eiwJmcO" Ids="CX8MzvpvjXzNjrcwWgvEz1,RMAiQYCVrlmNfgqdEHQqkD" IsHidden="true" />
-          <Link Id="H9NWBeRaVE6OCIz7MLbIKq" Ids="K5rRZz6a6RPNeStHXOYOt4,Ua4Rj8DRcaeLVWbOm8lJiu" />
-          <Link Id="I7Ji9ddRWxoOPSpzUTl1tE" Ids="BE6s1PuvNiNOyyLdZAyboq,K5rRZz6a6RPNeStHXOYOt4" IsHidden="true" />
-        </Patch>
-      </Node>
-      <!--
+        </Node>
+      </Canvas>
+      <Canvas Id="MdbG3lCC2d8PtwtDXJaMpv" Name="Filters" Position="260,782">
+        <!--
 
     ************************ FilterByName (Polygon) ************************
 
 -->
-      <Node Name="FilterByName (Polygon)" Bounds="276,923" Id="IxxhHtkdz31PvjtTlqgDqY" Summary="Strictly retrieves all polygons matching the input name">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="IvGk0KJnuOOOCiFwf1uxCR">
-          <Canvas Id="NCAp5vJKV9NPGpTqgWfXp4" CanvasType="Group">
-            <ControlPoint Id="PJM87cHzEx7LTQTUBJSPhp" Bounds="529,468" />
-            <ControlPoint Id="QFaftmfKGriLMzme6kvU6V" Bounds="614,468" />
-            <ControlPoint Id="BN10McEGxMQOLvn5MLEbRU" Bounds="529,614" />
-            <Node Bounds="527,492,90,95" Id="NMlndctiOQsPtDGuLfDaLZ">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
-                <Choice Kind="ProcessAppFlag" Name="GenericFilter (Polygon)" />
-                <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
-              </p:NodeReference>
-              <Pin Id="R0Mt6BcetchP21g48DfhuI" Name="Input" Kind="InputPin" />
-              <Pin Id="NK0TN9DgydnORcCUiEQXYU" Name="Filter" Kind="InputPin" />
-              <Pin Id="NQLpucFsQTAMyTMjPLJSTr" Name="Output" Kind="OutputPin" />
-              <Patch Id="Fqxn6IBS9T8LBGwEYswoGi" Name="Filter Criteria" ManuallySortedPins="true">
-                <Pin Id="PjqFwg4fWo9O9jSj1rTVRl" Name="Arg" Kind="InputPin" />
-                <Pin Id="Fp65YS2wY86OEo0KIYhEUO" Name="Result" Kind="OutputPin" />
-                <ControlPoint Id="KXyXExBhYnIOjmyczPiPKw" Bounds="541,500" />
-                <ControlPoint Id="HPI6vwdECkZL8NjRPg2SZq" Bounds="541,580" />
-                <Node Bounds="539,528,66,26" Id="Dryj4cZTMVQN8iMLCRKVBs">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="GetName" />
-                  </p:NodeReference>
-                  <Pin Id="MQxtG3ftfdcP9CadMuDd7K" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="BknmGWHnqK4L7eGadS31Aq" Name="Name" Kind="OutputPin" />
-                </Node>
-              </Patch>
-            </Node>
-          </Canvas>
-          <Patch Id="HUKEWMINgXhN6jnzuy7YTe" Name="Create" />
-          <Patch Id="IlbotUkqa2eMdRQSyfmi9i" Name="Update">
-            <Pin Id="AnL15lHKOX7QaUUTwOJNYv" Name="Input" Kind="InputPin" Bounds="532,426" />
-            <Pin Id="PMJ10lsLca9QNjipksNh54" Name="Filter" Kind="InputPin" Bounds="698,542" />
-            <Pin Id="P7fqkQLWiThO6BgwT1LAa9" Name="Output" Kind="OutputPin" Bounds="575,874" />
+        <Node Name="FilterByName (Polygon)" Bounds="88,109" Id="LG8yQEb7YCSO2weJ8KPc5X" Summary="Strictly retrieves all polygons matching the input name">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="Iu79c89FaA3NyeiieOrGSp">
+            <Canvas Id="TNznfebBvaYLokFuNvE1OE" CanvasType="Group">
+              <ControlPoint Id="OayGECs5IJ9LirSyyWW2BH" Bounds="529,468" />
+              <ControlPoint Id="Qt9X0eXCEttLZAT4wJia7y" Bounds="614,468" />
+              <ControlPoint Id="S0XI6TBUSBxL32TGpbG8g1" Bounds="529,614" />
+              <Node Bounds="527,492,90,95" Id="MqgYJFFUyZfNBc6oTzv1ws">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                  <Choice Kind="ProcessAppFlag" Name="GenericFilter (Polygon)" />
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                </p:NodeReference>
+                <Pin Id="KynAHGSvPOAPisZe6v12Bq" Name="Input" Kind="InputPin" />
+                <Pin Id="SJqAm0hpFBuQUIVXm732Dj" Name="Filter" Kind="InputPin" />
+                <Pin Id="AZQwcuK6UQBPEccOanM7C6" Name="Output" Kind="OutputPin" />
+                <Patch Id="UTk3UeseI8IMB3Sx9Sy7VX" Name="Filter Criteria" ManuallySortedPins="true">
+                  <Pin Id="TOObHetG2JePnBEkgsqEtZ" Name="Arg" Kind="InputPin" />
+                  <Pin Id="AbifjuJF6aoPV6eOtxw0rW" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="TeIoBrkFq0RNV4G107GqHB" Bounds="541,500" />
+                  <ControlPoint Id="INHLnjCBeDeOuD5dI4kzCY" Bounds="541,580" />
+                  <Node Bounds="539,528,66,26" Id="FVSpHwNM1HTLTEMebupuhi">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="GetName" />
+                    </p:NodeReference>
+                    <Pin Id="VIXSP2i92uMLsjpCDqrWaT" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="LGPlOWtcrBvO93CRZd2O1g" Name="Name" Kind="OutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+            </Canvas>
+            <Patch Id="AMBIfKTTvONL18mLntuey4" Name="Create" />
+            <Patch Id="GH81FATmugWLIQJrVg0023" Name="Update">
+              <Pin Id="NZ95wrjD5RNMS07yQRFTvz" Name="Input" Kind="InputPin" Bounds="532,426" />
+              <Pin Id="KrZvfMaxbY1NYdxBjGDl9r" Name="Filter" Kind="InputPin" Bounds="698,542" />
+              <Pin Id="U3qrVkso00jM4FAANya0ke" Name="Output" Kind="OutputPin" Bounds="575,874" />
+            </Patch>
+            <ProcessDefinition Id="TynLHvCxNyBN1bL7jSp4OR">
+              <Fragment Id="Q8ndH6SICmvNHaUuqLrFNo" Patch="AMBIfKTTvONL18mLntuey4" Enabled="true" />
+              <Fragment Id="PpWQBjjX5piQQAQEmmIpwH" Patch="GH81FATmugWLIQJrVg0023" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="Ozc12ctwGWQPEZUOSo6Mf9" Ids="NZ95wrjD5RNMS07yQRFTvz,OayGECs5IJ9LirSyyWW2BH" IsHidden="true" />
+            <Link Id="HfCRn7F6CDtMStUwg8RTP5" Ids="KrZvfMaxbY1NYdxBjGDl9r,Qt9X0eXCEttLZAT4wJia7y" IsHidden="true" />
+            <Link Id="VwlEmv6GERKLdFlfua4uYw" Ids="S0XI6TBUSBxL32TGpbG8g1,U3qrVkso00jM4FAANya0ke" IsHidden="true" />
+            <Link Id="CbOovKyRUcbNw8vT2czik6" Ids="TOObHetG2JePnBEkgsqEtZ,TeIoBrkFq0RNV4G107GqHB" IsHidden="true" />
+            <Link Id="Ng71ST56pynMqIWtuAFeXM" Ids="INHLnjCBeDeOuD5dI4kzCY,AbifjuJF6aoPV6eOtxw0rW" IsHidden="true" />
+            <Link Id="FsNuV278P4sMV2JOGdYWy2" Ids="OayGECs5IJ9LirSyyWW2BH,KynAHGSvPOAPisZe6v12Bq" />
+            <Link Id="LfFxeCnU6cOP1vtLIBriNH" Ids="TeIoBrkFq0RNV4G107GqHB,VIXSP2i92uMLsjpCDqrWaT" />
+            <Link Id="SwRa3j1E744M7sdzixLD5A" Ids="LGPlOWtcrBvO93CRZd2O1g,INHLnjCBeDeOuD5dI4kzCY" />
+            <Link Id="As9hjwjpqSULnxulHtNL7w" Ids="Qt9X0eXCEttLZAT4wJia7y,SJqAm0hpFBuQUIVXm732Dj" />
+            <Link Id="NYW19FdjJ65LxnrtcwxmvF" Ids="AZQwcuK6UQBPEccOanM7C6,S0XI6TBUSBxL32TGpbG8g1" />
           </Patch>
-          <ProcessDefinition Id="SlgSPmGKePdM86ub3FCZwg">
-            <Fragment Id="QrZGUIO7UtFNdpQ7U9m7No" Patch="HUKEWMINgXhN6jnzuy7YTe" Enabled="true" />
-            <Fragment Id="RLlcGtL4Gq6OgdRDLyBzmL" Patch="IlbotUkqa2eMdRQSyfmi9i" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="U462tbojc8CPXflGXe63Ex" Ids="AnL15lHKOX7QaUUTwOJNYv,PJM87cHzEx7LTQTUBJSPhp" IsHidden="true" />
-          <Link Id="UWJvKu7ElP7L3IlAvowtvc" Ids="PMJ10lsLca9QNjipksNh54,QFaftmfKGriLMzme6kvU6V" IsHidden="true" />
-          <Link Id="HsXUyhrziNeL8s8D1qXVMn" Ids="BN10McEGxMQOLvn5MLEbRU,P7fqkQLWiThO6BgwT1LAa9" IsHidden="true" />
-          <Link Id="Gar9q9VG1D8N7aLyyAdOZG" Ids="PjqFwg4fWo9O9jSj1rTVRl,KXyXExBhYnIOjmyczPiPKw" IsHidden="true" />
-          <Link Id="Hy161qoWAvXMamnlv7Wgoa" Ids="HPI6vwdECkZL8NjRPg2SZq,Fp65YS2wY86OEo0KIYhEUO" IsHidden="true" />
-          <Link Id="BaniSAutao1P8QKMFgDF7q" Ids="PJM87cHzEx7LTQTUBJSPhp,R0Mt6BcetchP21g48DfhuI" />
-          <Link Id="AgrkMtJs39ULX2ZvqVFIAM" Ids="KXyXExBhYnIOjmyczPiPKw,MQxtG3ftfdcP9CadMuDd7K" />
-          <Link Id="LN8qtpLIjhuO4k8Z1t6Mko" Ids="BknmGWHnqK4L7eGadS31Aq,HPI6vwdECkZL8NjRPg2SZq" />
-          <Link Id="C0nWywIbOxMNO5F5SzeYal" Ids="QFaftmfKGriLMzme6kvU6V,NK0TN9DgydnORcCUiEQXYU" />
-          <Link Id="NrGOq0WiIomQJcGvRomOxL" Ids="NQLpucFsQTAMyTMjPLJSTr,BN10McEGxMQOLvn5MLEbRU" />
-        </Patch>
-      </Node>
-      <!--
+        </Node>
+        <!--
 
     ************************ FilterByColor (Polygon) ************************
 
 -->
-      <Node Name="FilterByColor (Polygon)" Bounds="276,964" Id="I1ehAQzJbvZNx2v7vxL29J">
-        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
-          <Choice Kind="ContainerDefinition" Name="Process" />
-        </p:NodeReference>
-        <Patch Id="Ju1mrdkAuJAQGFJxsFNdEd">
-          <Canvas Id="EM1jNODMqcJOkIuNQZhAcY" CanvasType="Group">
-            <Node Bounds="452,631,90,95" Id="DUzoeF0LZ2MPHfHRluia0i">
-              <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.PolygonEditor.vl">
-                <Choice Kind="ProcessAppFlag" Name="GenericFilter (Polygon)" />
-                <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
-              </p:NodeReference>
-              <Pin Id="F3Iu24ILfhfLYuwLqNT1Zd" Name="Input" Kind="InputPin" />
-              <Pin Id="Eh33GSRNzQ2L0QWaq9HWCg" Name="Filter" Kind="InputPin" />
-              <Pin Id="BFMA3kVYL28OgfTblrQPbX" Name="Output" Kind="OutputPin" />
-              <Patch Id="CutVuw5iK4TLqgNh9q9pj0" Name="Filter Criteria" ManuallySortedPins="true">
-                <Pin Id="FieS0pBFwgCMotdK26C4ZB" Name="Arg" Kind="InputPin" />
-                <Pin Id="FD5tx9MEQFOLvojKQTg5Em" Name="Result" Kind="OutputPin" />
-                <ControlPoint Id="B6oclMisYFvPdUaDhZCLF1" Bounds="466,639" />
-                <ControlPoint Id="TP08E9JWJDqMT7gGtMqCHt" Bounds="466,719" />
-                <Node Bounds="464,667,66,26" Id="QPpXfKsOtBKPxZbdgtHsqh">
-                  <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.PolygonEditor.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="GetColor" />
-                  </p:NodeReference>
-                  <Pin Id="PZIG4KHpFBMLEFUWyhhH6K" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="DwHdmBYvFV1L0s1u2XCrSp" Name="Color" Kind="OutputPin" />
-                </Node>
-              </Patch>
-            </Node>
-            <ControlPoint Id="DEfmPagipJGO7DfZQISzQe" Bounds="454,603" />
-            <ControlPoint Id="TQYqmB2ST49OUsh626LLzX" Bounds="539,603" />
-            <ControlPoint Id="A2T3zmfZDKoNfUGGTUo371" Bounds="454,755" />
-          </Canvas>
-          <Patch Id="KTnbb9Ms9WBNc9u88vDCux" Name="Create" />
-          <Patch Id="H3AdUHc3jIeLOKVwqOkxiI" Name="Update">
-            <Pin Id="Qa8cfQwzKgwOn8qmAC5GQ5" Name="Input" Kind="InputPin" Bounds="465,600" />
-            <Pin Id="KvqzHh5uqaPLqZxR6dh9W0" Name="Filter" Kind="InputPin" Bounds="549,607" />
-            <Pin Id="QBUVXcc2w4rLf1IdwaexzG" Name="Output" Kind="OutputPin" Bounds="456,762" />
+        <Node Name="FilterByColor (Polygon)" Bounds="88,150" Id="JNo2hglUof0N4NOLU83Bm4">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="TWMgJB8Bs85OAnTO4u66cR">
+            <Canvas Id="M2lcnwZtksjOWliGQqstfg" CanvasType="Group">
+              <Node Bounds="452,631,90,95" Id="EkkBcc7QXwhPBY5it3NkHo">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Utils" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                  <Choice Kind="ProcessAppFlag" Name="GenericFilter (Polygon)" />
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                </p:NodeReference>
+                <Pin Id="PSoa96HYJ7oMeITZHRBVtc" Name="Input" Kind="InputPin" />
+                <Pin Id="IBI6rAg9YIfOg9aCMczH86" Name="Filter" Kind="InputPin" />
+                <Pin Id="AdBpmulqoaaMUBritG9gbX" Name="Output" Kind="OutputPin" />
+                <Patch Id="PXNveWOqXt4Op2jUx7C8Ae" Name="Filter Criteria" ManuallySortedPins="true">
+                  <Pin Id="UEWYNk7fH8xN9T9j9LuATJ" Name="Arg" Kind="InputPin" />
+                  <Pin Id="UpaoUANKBoRPpcA37DZ3fP" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="OMFVr3hyag8Mcrvhz9fFty" Bounds="466,639" />
+                  <ControlPoint Id="Uv8PihTErG4QGfIrskOCZb" Bounds="466,719" />
+                  <Node Bounds="464,667,66,26" Id="OL9C3Gz1aSDPj4sXiYWnzD">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Model.PolygonModel" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="GetColor" />
+                    </p:NodeReference>
+                    <Pin Id="CE5UIAxybaUM1af6FyfvRy" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="RKWFjxRGxveOroQml0B4hI" Name="Color" Kind="OutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+              <ControlPoint Id="PozYHlGBIG5L7fF0zjVzv8" Bounds="454,603" />
+              <ControlPoint Id="R8KqivnYaGZQWfF91vHuk7" Bounds="539,603" />
+              <ControlPoint Id="OZ8fU2n8NDENIQ5IK6VWDu" Bounds="454,755" />
+            </Canvas>
+            <Patch Id="EfCd6jCWoneMT2UWZiTzIZ" Name="Create" />
+            <Patch Id="MSkynfIDizdMIVdZ3gKfMc" Name="Update">
+              <Pin Id="MsbgykYglNSP9V6arHRGE7" Name="Input" Kind="InputPin" Bounds="465,600" />
+              <Pin Id="U1tLvxCXeaDPnGDtbaAk1a" Name="Filter" Kind="InputPin" Bounds="549,607" />
+              <Pin Id="EuoPgijY4sRPm3s2UvyuWG" Name="Output" Kind="OutputPin" Bounds="456,762" />
+            </Patch>
+            <ProcessDefinition Id="B11k2fpJAirQc289i1wbJa">
+              <Fragment Id="GYbKlY3O4NBNZLZMRsiUkI" Patch="EfCd6jCWoneMT2UWZiTzIZ" Enabled="true" />
+              <Fragment Id="PYCirNJiipzMyVJh5fjrhe" Patch="MSkynfIDizdMIVdZ3gKfMc" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="U5B6FtcG5l5LVc9ojvSAof" Ids="UEWYNk7fH8xN9T9j9LuATJ,OMFVr3hyag8Mcrvhz9fFty" IsHidden="true" />
+            <Link Id="UStYyfbzlc5M3n1YY1khRH" Ids="Uv8PihTErG4QGfIrskOCZb,UpaoUANKBoRPpcA37DZ3fP" IsHidden="true" />
+            <Link Id="IUruLpddj6nMeCcjGFvfaE" Ids="OMFVr3hyag8Mcrvhz9fFty,CE5UIAxybaUM1af6FyfvRy" />
+            <Link Id="UCweXkZdMybN79eIRAPy3z" Ids="RKWFjxRGxveOroQml0B4hI,Uv8PihTErG4QGfIrskOCZb" />
+            <Link Id="RLWxuc2qp6JOwKtoMb7wCy" Ids="PozYHlGBIG5L7fF0zjVzv8,PSoa96HYJ7oMeITZHRBVtc" />
+            <Link Id="QSf8kConQ5qPlhhKvsdvTn" Ids="MsbgykYglNSP9V6arHRGE7,PozYHlGBIG5L7fF0zjVzv8" IsHidden="true" />
+            <Link Id="DT7WoyQVIIdL7YGCs8e4yJ" Ids="R8KqivnYaGZQWfF91vHuk7,IBI6rAg9YIfOg9aCMczH86" />
+            <Link Id="CKrwNxFappOOtAdsDidBYz" Ids="U1tLvxCXeaDPnGDtbaAk1a,R8KqivnYaGZQWfF91vHuk7" IsHidden="true" />
+            <Link Id="Nz48fsqxy2WN4c0gyvITXi" Ids="AdBpmulqoaaMUBritG9gbX,OZ8fU2n8NDENIQ5IK6VWDu" />
+            <Link Id="TPTTW1aSrI7Lp2RnfeXltI" Ids="OZ8fU2n8NDENIQ5IK6VWDu,EuoPgijY4sRPm3s2UvyuWG" IsHidden="true" />
           </Patch>
-          <ProcessDefinition Id="MmF028o9X7DQClXjeIm8F0">
-            <Fragment Id="VaNbNfcYPNANdUYQQkaLxW" Patch="KTnbb9Ms9WBNc9u88vDCux" Enabled="true" />
-            <Fragment Id="MEzUkJqTl89LCKabPDK7MI" Patch="H3AdUHc3jIeLOKVwqOkxiI" Enabled="true" />
-          </ProcessDefinition>
-          <Link Id="TfrFvzA9XYpNPxBX7LIWzn" Ids="FieS0pBFwgCMotdK26C4ZB,B6oclMisYFvPdUaDhZCLF1" IsHidden="true" />
-          <Link Id="KGzTjMoXBLWMWMbtjOX9tc" Ids="TP08E9JWJDqMT7gGtMqCHt,FD5tx9MEQFOLvojKQTg5Em" IsHidden="true" />
-          <Link Id="LPrIGbysLJRMcPyKcq37vN" Ids="B6oclMisYFvPdUaDhZCLF1,PZIG4KHpFBMLEFUWyhhH6K" />
-          <Link Id="TueeBAUO1BpLxXYbR0m8ZM" Ids="DwHdmBYvFV1L0s1u2XCrSp,TP08E9JWJDqMT7gGtMqCHt" />
-          <Link Id="Dfkd8RWHe68L4bADdOxBOg" Ids="DEfmPagipJGO7DfZQISzQe,F3Iu24ILfhfLYuwLqNT1Zd" />
-          <Link Id="OQuojGDxFKlPYMqSUZdICg" Ids="Qa8cfQwzKgwOn8qmAC5GQ5,DEfmPagipJGO7DfZQISzQe" IsHidden="true" />
-          <Link Id="Syn1SxWnsKrMxTECQZ3Pnc" Ids="TQYqmB2ST49OUsh626LLzX,Eh33GSRNzQ2L0QWaq9HWCg" />
-          <Link Id="PzrBKjficJsNl9cbZtMrHK" Ids="KvqzHh5uqaPLqZxR6dh9W0,TQYqmB2ST49OUsh626LLzX" IsHidden="true" />
-          <Link Id="P2mCzeEkUstP1YVGUXKXKZ" Ids="BFMA3kVYL28OgfTblrQPbX,A2T3zmfZDKoNfUGGTUo371" />
-          <Link Id="LAV9cYZpTh8QCXOREhtYHJ" Ids="A2T3zmfZDKoNfUGGTUo371,QBUVXcc2w4rLf1IdwaexzG" IsHidden="true" />
-        </Patch>
-      </Node>
+        </Node>
+      </Canvas>
+      <Canvas Id="E2mASnxQRT7O4KjG7qDghI" Name="Modifiers" Position="260,735">
+        <!--
+
+    ************************ AddPolygon ************************
+
+-->
+        <Node Name="AddPolygon" Bounds="54,61" Id="HlUThHZGfnZNGbNwNpfUlP" Summary="Adds a polygon to the input PolygonEditor">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="H3RI3gi73FoLQXVWFSrBQq">
+            <Canvas Id="Ex5LVeVJmXSOmIWblpLdPY" CanvasType="Group">
+              <Node Bounds="372,550,70,22" Id="Ks3sm4h7WA0LkkpXoKm7Rp">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                  <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                  <FullNameCategoryReference ID="Primitive" />
+                </p:NodeReference>
+                <Pin Id="RUFW93GDUqfMN7nSEEZMb6" Name="Condition" Kind="InputPin" />
+                <Patch Id="R24wKGfFJGhMoXH3q3bYtE" ManuallySortedPins="true">
+                  <Patch Id="EKuAo8VXEElOQz8Y0uZNIx" Name="Create" ManuallySortedPins="true" />
+                  <Patch Id="R7s2Gs8tF5RNhUDmD87iTd" Name="Then" ManuallySortedPins="true" />
+                  <Node Bounds="372,553" Id="NPQnLutOek7PnstaFMMBkq">
+                    <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="AddPolygon" />
+                      <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="KsERUN9NEtINbICjtXzifo" Name="Input" Kind="InputPin" />
+                    <Pin Id="I6Y61jKIpaWOBkBSiofEca" Name="Add" Kind="InputPin" DefaultValue="True">
+                      <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="TypeFlag" Name="Boolean" />
+                      </p:TypeAnnotation>
+                    </Pin>
+                  </Node>
+                </Patch>
+              </Node>
+              <ControlPoint Id="TThzIejpuQJMXHZd0U4f6A" Bounds="374,496" />
+              <ControlPoint Id="GAKwkr5tXEuPFUscCDkQbG" Bounds="320,476" />
+            </Canvas>
+            <Patch Id="FIsT0QvXkUlLrD1ptl9E90" Name="Create" />
+            <Patch Id="In1rgVXFaLHNChrQhKJ2rM" Name="Update" ManuallySortedPins="true">
+              <Pin Id="R6V1jsthmI8Lv4Y8Tbv28y" Name="Input" Kind="InputPin" Bounds="389,489" />
+              <Pin Id="GNcru56TPlmPt6Y5lsVtvy" Name="Add" Kind="InputPin" Bounds="332,488" />
+            </Patch>
+            <ProcessDefinition Id="K4DHG6rYHrOL0FAEOky3ag">
+              <Fragment Id="S5ayVkllSImNuROFdSZ9JX" Patch="FIsT0QvXkUlLrD1ptl9E90" Enabled="true" />
+              <Fragment Id="QOoI9XVkC8nMB8xwcC6Aja" Patch="In1rgVXFaLHNChrQhKJ2rM" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="PHh6sHxy7f2LC3cVjRhpSL" Ids="TThzIejpuQJMXHZd0U4f6A,KsERUN9NEtINbICjtXzifo" />
+            <Link Id="RLjc1LFOcliMLNT9OQiZiJ" Ids="R6V1jsthmI8Lv4Y8Tbv28y,TThzIejpuQJMXHZd0U4f6A" IsHidden="true" />
+            <Link Id="IUjIEzVmjxfLBYw0a0CQ4f" Ids="GAKwkr5tXEuPFUscCDkQbG,RUFW93GDUqfMN7nSEEZMb6" />
+            <Link Id="Cot8P58K1BnMkp6MSfZS9D" Ids="GNcru56TPlmPt6Y5lsVtvy,GAKwkr5tXEuPFUscCDkQbG" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SelectPolygon ************************
+
+-->
+        <Node Name="SelectPolygon" Bounds="54,106" Id="ORjnydnYAuPMbZj9TFg8AB" Summary="Selects a polygon from the input PolygonEditor">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="NsNoAwooDMVPjAktsO36e4">
+            <Canvas Id="BnHIAz4SnM6MTD1mBCN1Ft" CanvasType="Group">
+              <Node Bounds="502,553" Id="IzWBdrxeFwULHPFZsNfyRL">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="SelectPolygon" />
+                  <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="UKTAlubG9aBOW4YoS0HpDg" Name="Input" Kind="InputPin" />
+                <Pin Id="VBcnJC7o7m8LxkDqayNFkg" Name="Index" Kind="InputPin" />
+                <Pin Id="VUzPR3Cto1zPiHeZr7CrWK" Name="Update" Kind="InputPin" />
+              </Node>
+              <ControlPoint Id="OKnly71EcUpOLhhai1wYkD" Bounds="465,521" />
+              <ControlPoint Id="Nn1kdJo9ZEsQPlyJvclb1y" Bounds="541,521" />
+              <ControlPoint Id="LeHUkJ0CL52PmxPhuP3xM8" Bounds="620,521" />
+            </Canvas>
+            <Patch Id="DkQBGeZ8TpaMykKHp5fU5W" Name="Create" />
+            <Patch Id="AneeFVzZDuQQPffNMC9dhf" Name="Update">
+              <Pin Id="NB0puCoZ89WOKfF4GLMd3W" Name="Input" Kind="InputPin" Bounds="463,520" />
+              <Pin Id="FWPYGC96ZXUK98RPD0aj0s" Name="Index" Kind="InputPin" Bounds="549,520" />
+              <Pin Id="HzbVIMsLgaNNHBdBUsF4Xe" Name="Update" Kind="InputPin" Bounds="620,534" />
+            </Patch>
+            <ProcessDefinition Id="Gb4XQWnV6UHOUJwC3kCKx8">
+              <Fragment Id="UXGQP8n61OwQMtVFFRIgmm" Patch="DkQBGeZ8TpaMykKHp5fU5W" Enabled="true" />
+              <Fragment Id="Bbl4ZxkIL5zPoSD3z73bBI" Patch="AneeFVzZDuQQPffNMC9dhf" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="JZZ3yy6TYyAQVSxTmiF3U6" Ids="OKnly71EcUpOLhhai1wYkD,UKTAlubG9aBOW4YoS0HpDg" />
+            <Link Id="BaEpLmrMKFfMImh5X6khdv" Ids="NB0puCoZ89WOKfF4GLMd3W,OKnly71EcUpOLhhai1wYkD" IsHidden="true" />
+            <Link Id="J1B9U1pfylZM6tn1pJ0Ll3" Ids="Nn1kdJo9ZEsQPlyJvclb1y,VBcnJC7o7m8LxkDqayNFkg" />
+            <Link Id="KYS6KFwu7xLMbgmgD80BPx" Ids="FWPYGC96ZXUK98RPD0aj0s,Nn1kdJo9ZEsQPlyJvclb1y" IsHidden="true" />
+            <Link Id="K6VwsgJYVRMLVa4yhHJ8ry" Ids="LeHUkJ0CL52PmxPhuP3xM8,VUzPR3Cto1zPiHeZr7CrWK" />
+            <Link Id="F3EV9UFPe4nPfjZW5LHMYW" Ids="HzbVIMsLgaNNHBdBUsF4Xe,LeHUkJ0CL52PmxPhuP3xM8" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SetPolygonName ************************
+
+-->
+        <Node Name="SetPolygonName" Bounds="54,151" Id="HsBy4xWyZqNQEDgRFmiiOT" Summary="Sets the selected Polygon name" Remarks="Use SelectPolygon to focus one of the available polygons">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="Ec7KmrWOgbyNH3NOCtb2Bc">
+            <Canvas Id="GOV4E2PCTxBLRN9AtQT6xD" CanvasType="Group">
+              <Node Bounds="493,595" Id="MaRcaw0lyYYMjZn16j51XW">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="SetPolygonName" />
+                  <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="K08KQRxzW4PPc1py8cRh3y" Name="Input" Kind="InputPin" />
+                <Pin Id="Jp7A4Enf8SHNq4yc5U50gh" Name="Name" Kind="InputPin" />
+                <Pin Id="F7LYn6IjEy2MPaGLCzGkjH" Name="Apply" Kind="InputPin" />
+              </Node>
+              <ControlPoint Id="ASI8U53fZzwNfttFyRUAI4" Bounds="475,574" />
+              <ControlPoint Id="LVKOIgR5wFDLeLCSx8U47D" Bounds="539,573" />
+              <ControlPoint Id="Ey5aQ7L2i2MP0pK2svu9CU" Bounds="596,573" />
+            </Canvas>
+            <Patch Id="Rc8yzj7H8SjLNGm8Efzru9" Name="Create" />
+            <Patch Id="ORjoI4UELxhNdOLzAx3VOC" Name="Update">
+              <Pin Id="K5Iy6ljj4rMPRXG4o9qi0z" Name="Input" Kind="InputPin" Bounds="470,574" />
+              <Pin Id="S3y2r8CpW9VQGCYkZBog2O" Name="Name" Kind="InputPin" Bounds="545,564" />
+              <Pin Id="QZB3vD7LcTFNd4kQT6uRoD" Name="Apply" Kind="InputPin" Bounds="604,573" />
+            </Patch>
+            <ProcessDefinition Id="LaoCW98G3hCPsd7hOCm2FQ">
+              <Fragment Id="FcBMUqfjkIoNMpkRM3Hnwi" Patch="Rc8yzj7H8SjLNGm8Efzru9" Enabled="true" />
+              <Fragment Id="K32r1P3tWY0NEeaVPaRBi1" Patch="ORjoI4UELxhNdOLzAx3VOC" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="C2IUJPgeQrxLabm0CGd9VH" Ids="ASI8U53fZzwNfttFyRUAI4,K08KQRxzW4PPc1py8cRh3y" />
+            <Link Id="FHVR8bkxOJHMH3I2Hqe1jv" Ids="K5Iy6ljj4rMPRXG4o9qi0z,ASI8U53fZzwNfttFyRUAI4" IsHidden="true" />
+            <Link Id="PGaADdvPyDmPnAzJ6iY8gA" Ids="LVKOIgR5wFDLeLCSx8U47D,Jp7A4Enf8SHNq4yc5U50gh" />
+            <Link Id="FjfO6R0s1RXMa8uBb7dYt0" Ids="S3y2r8CpW9VQGCYkZBog2O,LVKOIgR5wFDLeLCSx8U47D" IsHidden="true" />
+            <Link Id="VCJEYSod2hdMSrxQrcqcMj" Ids="Ey5aQ7L2i2MP0pK2svu9CU,F7LYn6IjEy2MPaGLCzGkjH" />
+            <Link Id="GiGb9WFBXCmOyETx47kQXt" Ids="QZB3vD7LcTFNd4kQT6uRoD,Ey5aQ7L2i2MP0pK2svu9CU" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SetPolygonColor ************************
+
+-->
+        <Node Name="SetPolygonColor" Bounds="54,196" Id="FnVSVvEnrZpL7Uoctmn8My" Summary="Sets the color of the selected Polygon." Remarks="Use SelectPolygon to select a specific polygon">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="Re6w9btQ3h2QDwYeKQdJdB">
+            <Canvas Id="UQ5iHgQ3aPwMv8CIJYqhXA" CanvasType="Group">
+              <Node Bounds="586,451" Id="QqxxUeNttWcM0RCRYR35Bu">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.PolygonEditor.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="SetPolygonColor" />
+                  <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="Iw2SRCAceblOjwIh1vYDU1" Name="Input" Kind="InputPin" />
+                <Pin Id="V6VnJKJK2wRNSNuwRwXTcL" Name="Color" Kind="InputPin" />
+                <Pin Id="CaJ5CNtWid3QPyeopWd3Za" Name="Apply" Kind="InputPin" />
+              </Node>
+              <ControlPoint Id="IAVdg0ZJpmtOkJXkEgjZaW" Bounds="564,421" />
+              <ControlPoint Id="TdtLTVsRqoVP6D4SxMpKx4" Bounds="630,422" />
+              <ControlPoint Id="VBpAP4e2U6DOcRSVsGYdrR" Bounds="701,418" />
+            </Canvas>
+            <Patch Id="CiLo9wbVje1OTGHY6JSbJM" Name="Create" />
+            <Patch Id="CrS2gqomuKaLTB8ipXnHvH" Name="Update">
+              <Pin Id="JeGloX5mpwHLtOuIcrZelF" Name="Input" Kind="InputPin" Bounds="543,423" />
+              <Pin Id="I2JcoBNHOXFONkvNliqAJx" Name="Color" Kind="InputPin" Bounds="634,412" />
+              <Pin Id="CywbLChnv0bN8N3sMp4weC" Name="Apply" Kind="InputPin" Bounds="701,411" />
+            </Patch>
+            <ProcessDefinition Id="RV7l4y7QhusOKsQfcIiGBF">
+              <Fragment Id="TCrOtqj0xcoP5hDcsLAyXK" Patch="CiLo9wbVje1OTGHY6JSbJM" Enabled="true" />
+              <Fragment Id="KVBEAsW4fPEMyyLZ1zJlpD" Patch="CrS2gqomuKaLTB8ipXnHvH" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="T9dFPW1TweQNTJlEGOjv9P" Ids="IAVdg0ZJpmtOkJXkEgjZaW,Iw2SRCAceblOjwIh1vYDU1" />
+            <Link Id="R46q4zRxo7uOiPgoWxhyHd" Ids="JeGloX5mpwHLtOuIcrZelF,IAVdg0ZJpmtOkJXkEgjZaW" IsHidden="true" />
+            <Link Id="EeGZQEHVv4vPzPGMtVQb3U" Ids="TdtLTVsRqoVP6D4SxMpKx4,V6VnJKJK2wRNSNuwRwXTcL" />
+            <Link Id="T35M1d3tj2HO8hoS7nI4ac" Ids="I2JcoBNHOXFONkvNliqAJx,TdtLTVsRqoVP6D4SxMpKx4" IsHidden="true" />
+            <Link Id="OwDTF1MltszL8GcixuoANm" Ids="VBpAP4e2U6DOcRSVsGYdrR,CaJ5CNtWid3QPyeopWd3Za" />
+            <Link Id="Asba8vn2535NFoe5lx37Qm" Ids="CywbLChnv0bN8N3sMp4weC,VBpAP4e2U6DOcRSVsGYdrR" IsHidden="true" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ SetPolygonPoints ************************
+
+-->
+        <Node Name="SetPolygonPoints" Bounds="58,243" Id="T3p47SKSa3APhvyMNTwISi">
+          <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+            <Choice Kind="ContainerDefinition" Name="Process" />
+          </p:NodeReference>
+          <Patch Id="KJiZgPSOdSlMCenmyhWBsF">
+            <Canvas Id="IjvAkkNnXw3PQuDE7dxB2B" CanvasType="Group">
+              <Node Bounds="115,97,66,19" Id="PyoA2CQHg4vPOLVKv4t1Bz">
+                <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Editor.Patch" LastSymbolSource="VL.2D.PolygonEditor.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="SetPolygon" />
+                  <CategoryReference Kind="Category" Name="Patch" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="Ej5KXKBchU2P465XNKZbsq" Name="Input" Kind="InputPin" />
+                <Pin Id="M1BV0YJeZHONCYLQVXJCQg" Name="Points" Kind="InputPin" />
+                <Pin Id="KuLs0QB0PO3PjyAmRY5NNV" Name="Send" Kind="InputPin" />
+              </Node>
+              <ControlPoint Id="IGG23Ut7grtNDM4wyepKLp" Bounds="88,72" />
+              <ControlPoint Id="HKNFlJROo3UNhXR2iIEakx" Bounds="147,74" />
+              <ControlPoint Id="BnrBLYJawGaNnEWeqpATk5" Bounds="207,74" />
+            </Canvas>
+            <Patch Id="Vc15OnCSdM1My0h46iwZLx" Name="Create" />
+            <Patch Id="BKv64zAMB51MqHOaQBrcFw" Name="Update">
+              <Pin Id="OnJgoQlQwwQMDrMjEYs7ZE" Name="Input" Kind="InputPin" Bounds="719,520" />
+              <Pin Id="JgXqhy6loNMN5cTJ3ByfXB" Name="Points" Kind="InputPin" Bounds="775,518" />
+              <Pin Id="RDU0ROinFHfM0BLmlxpbam" Name="Set" Kind="InputPin" Bounds="838,521" />
+            </Patch>
+            <!--
+
+    ************************  ************************
+
+-->
+            <ProcessDefinition Id="PGO2w0yKwVmNDeJxHsAdeT">
+              <Fragment Id="IsOUA7IO2XpPSznW7TQ4Eh" Patch="Vc15OnCSdM1My0h46iwZLx" Enabled="true" />
+              <Fragment Id="J17LHtWJPBWOR0svASzKk4" Patch="BKv64zAMB51MqHOaQBrcFw" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="Bngd9VIYN2dNIDdWt0ep7U" Ids="IGG23Ut7grtNDM4wyepKLp,Ej5KXKBchU2P465XNKZbsq" />
+            <Link Id="JnteWeQDxUCP8BLKmCcrQe" Ids="OnJgoQlQwwQMDrMjEYs7ZE,IGG23Ut7grtNDM4wyepKLp" IsHidden="true" />
+            <Link Id="OrnXYE69EOdMEPEozrH7y6" Ids="HKNFlJROo3UNhXR2iIEakx,M1BV0YJeZHONCYLQVXJCQg" />
+            <Link Id="N8uEcKiHFGeNH11bv5GHe5" Ids="JgXqhy6loNMN5cTJ3ByfXB,HKNFlJROo3UNhXR2iIEakx" IsHidden="true" />
+            <Link Id="NxvqIStm7c4L4Ze6C4waTy" Ids="BnrBLYJawGaNnEWeqpATk5,KuLs0QB0PO3PjyAmRY5NNV" />
+            <Link Id="DiDcpWTQeXKL2vSCjcXqfY" Ids="RDU0ROinFHfM0BLmlxpbam,BnrBLYJawGaNnEWeqpATk5" IsHidden="true" />
+          </Patch>
+        </Node>
+      </Canvas>
     </Canvas>
     <!--
 

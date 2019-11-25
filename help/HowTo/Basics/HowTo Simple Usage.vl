@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-1000.roslyn-b46f72d86e" Version="0.128">
+<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
   <NugetDependency Id="Na7I5vvzkxaLJOVjV3Y5dY" Location="VL.CoreLib" Version="2019.1.0-959" />
   <Patch Id="BgLZSIscectQSOv9XHhe8z">
     <Canvas Id="UGUGy7NZFEXOx6hzad1BsL" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -38,12 +38,12 @@
             <Pin Id="PL78pdilrY7Lr8qa5Sx0ws" Name="Layer" Kind="OutputPin" />
             <Pin Id="AUcGyGaliKbMOExdaERsrS" Name="Polygons" Kind="OutputPin" />
           </Node>
-          <Node Bounds="89,555,125,19" Id="QOe0c4wq1HMLx6lEqCjxrK">
+          <Node Bounds="89,585,125,19" Id="QOe0c4wq1HMLx6lEqCjxrK">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="ADeOdcWdvRwNzLFzFzUZSj" Name="Bounds" Kind="InputPin" DefaultValue="1296, 312, 600, 400">
+            <Pin Id="ADeOdcWdvRwNzLFzFzUZSj" Name="Bounds" Kind="InputPin" DefaultValue="1471, 405, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -62,24 +62,16 @@
             <Pin Id="Q5rairhyyDsNmrs1pfbX9w" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="AlY4uHyWHVFNRVieUbBJts" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="243,276,70,19" Id="CLNAUgSpcxbPEjI0pcmy30">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="186,246,70,19" Id="CLNAUgSpcxbPEjI0pcmy30">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AddPolygon" />
             </p:NodeReference>
             <Pin Id="OXibOxx5MYcPrhVmfypWrT" Name="Input" Kind="InputPin" />
             <Pin Id="N5rIXFivYptQUSO8EYQrZS" Name="Add" Kind="InputPin" />
           </Node>
-          <Pad Id="VWZZDKdAWVHPdV76139a2f" Comment="Add" Bounds="310,251,35,15" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="433,276,79,19" Id="AKr6vDG9eg1OemvMsBlEjB">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="328,246,79,19" Id="AKr6vDG9eg1OemvMsBlEjB">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SelectPolygon" />
             </p:NodeReference>
@@ -91,16 +83,8 @@
             </Pin>
             <Pin Id="PRRRtNB2dV8NVbQ5ehRj8Z" Name="Update" Kind="InputPin" />
           </Node>
-          <Pad Id="FICmZs5aOCPLVcIEU1Kj1o" Comment="Add" Bounds="509,251,35,15" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="243,352,92,19" Id="TKlpQf3QIfTPuDzAgy5xmF">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="186,287,92,19" Id="TKlpQf3QIfTPuDzAgy5xmF">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetPolygonName" />
             </p:NodeReference>
@@ -112,16 +96,8 @@
             </Pin>
             <Pin Id="JRZpkMI4C7yNb6nSMSTmP5" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="QaXFwEju4sDLw5maLy9ITC" Comment="Apply" Bounds="332,334,35,15" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="433,352,90,19" Id="TdJDxCk1SceN32dyVlC7UL">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="328,289,90,19" Id="TdJDxCk1SceN32dyVlC7UL">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetPolygonColor" />
             </p:NodeReference>
@@ -133,16 +109,8 @@
             </Pin>
             <Pin Id="ABk1GXymiftNNrvAEBVCDH" Name="Apply" Kind="InputPin" />
           </Node>
-          <Pad Id="QEp6PqXU3EeM4WeWL2ix5o" Comment="Apply" Bounds="520,334,35,15" ShowValueBox="true" isIOBox="true" Value="False">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Boolean" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-            </p:ValueBoxSettings>
-          </Pad>
-          <Node Bounds="243,437,76,19" Id="MDugLr515IqPLSqa8qiMAP">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="186,328,76,19" Id="MDugLr515IqPLSqa8qiMAP">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Filters" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterByName (Polygon)" />
             </p:NodeReference>
@@ -154,9 +122,8 @@
             </Pin>
             <Pin Id="PUcjiVpX1NTPsJhhDXaWmq" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="InqozL5RaObMiQc7rTM2an" Comment="" Bounds="245,479,108,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="433,437,74,19" Id="PUmdsQ3pohGNzA5sK52kIh">
-            <p:NodeReference LastCategoryFullName="2D.PolygonEditor" LastSymbolSource="VL.PolygonEditor.vl">
+          <Node Bounds="328,332,74,19" Id="PUmdsQ3pohGNzA5sK52kIh">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Filters" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterByColor (Polygon)" />
             </p:NodeReference>
@@ -168,7 +135,6 @@
             </Pin>
             <Pin Id="PgwCy3f5N2wOYp371W4ico" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="CeNt2MmtmiDLh5dZk2Jnsu" Comment="" Bounds="435,475,108,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="Eloo8qCtJXSMBwKUA1JYcH" Bounds="59,17,174,58" ShowValueBox="true" isIOBox="true" Value="This is the central node that hosts the PolygonEditor application">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -178,7 +144,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MUWLaSGYQXbMqS3YCXlhv6" Bounds="236,179,362,37" ShowValueBox="true" isIOBox="true" Value="Those are the available nodes to interact programmaticaly with the editor.">
+          <Pad Id="MUWLaSGYQXbMqS3YCXlhv6" Bounds="186,179,362,37" ShowValueBox="true" isIOBox="true" Value="Those are the available nodes to interact programmaticaly with the editor.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -195,7 +161,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="UOrUqAZcCERP5xGlO2f5lD" Bounds="638,180,339,200" ShowValueBox="true" isIOBox="true" Value="You can also interact with the polygon editor with shortcuts :&#xD;&#xA;&#xD;&#xA;- Double LMB : select a polygon&#xD;&#xA;- [+] + LMB : add a point&#xD;&#xA;- Space + LMB : insert a point at mouse pos on the selected polygon&#xD;&#xA;- LMB Drag : move a point&#xD;&#xA;- M + LMB Drag : move selected polygon&#xD;&#xA;- Del : remove selected polygon">
+          <Pad Id="UOrUqAZcCERP5xGlO2f5lD" Bounds="578,180,339,200" ShowValueBox="true" isIOBox="true" Value="You can also interact with the polygon editor with shortcuts :&#xD;&#xA;&#xD;&#xA;- Double LMB : select a polygon&#xD;&#xA;- [+] + LMB : add a point&#xD;&#xA;- Space + LMB : insert a point at mouse pos on the selected polygon&#xD;&#xA;- LMB Drag : move a point&#xD;&#xA;- M + LMB Drag : move selected polygon&#xD;&#xA;- Del : remove selected polygon">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -204,7 +170,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GPEpBRSIxc2PDTgJIlSSX9" Bounds="638,405,341,176" ShowValueBox="true" isIOBox="true" Value="Todo :&#xD;&#xA;&#xD;&#xA;- Implement Undo/Redo&#xD;&#xA;- Node to move a polygon ?">
+          <Pad Id="GPEpBRSIxc2PDTgJIlSSX9" Bounds="578,405,341,176" ShowValueBox="true" isIOBox="true" Value="Todo :&#xD;&#xA;&#xD;&#xA;- Implement Undo/Redo&#xD;&#xA;- Node to move a polygon ?">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -230,6 +196,35 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="186,487,105,19" Id="GlaX5cPAszTNFoDC2vaEyO">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Events" LastSymbolSource="VL.2D.PolygonEditor.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="2D" />
+              <CategoryReference Kind="Category" Name="PolygonEditor" />
+              <CategoryReference Kind="Category" Name="Events" />
+              <Choice Kind="ProcessAppFlag" Name="OnPolygonModified" />
+            </p:NodeReference>
+            <Pin Id="B8J1fTwOBwuLsTz49bbRoE" Name="Input" Kind="InputPin" />
+            <Pin Id="BwHc3H4lIDzNIxoOYjye4O" Name="Event" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="186,369,94,19" Id="Br0nhCfez1nPcDYfUzTClm">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SetPolygonPoints" />
+            </p:NodeReference>
+            <Pin Id="KzMo6XYSgyiOCK02LyXuiT" Name="Input" Kind="InputPin" />
+            <Pin Id="CSqpzSoLMo9OcnQFnB70Xr" Name="Points" Kind="InputPin" />
+            <Pin Id="CBVm6Q1WPk1LczDBiefofL" Name="Set" Kind="InputPin" />
+          </Node>
+          <Pad Id="HryjyGQrCR0LorO0W5jtfW" Bounds="186,433,362,37" ShowValueBox="true" isIOBox="true" Value="And this one outputs an Observable when a polygon has changed">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="HUpbvSm7xcvNx8DMb8zHGj" Name="Create" />
         <Patch Id="KtLBAqVJoihNs9FPP9B0os" Name="Update" />
@@ -238,23 +233,11 @@
           <Fragment Id="OeItjfYhEmuQTaZ5erWjB2" Patch="KtLBAqVJoihNs9FPP9B0os" Enabled="true" />
         </ProcessDefinition>
         <Link Id="Th5uNe96PviMVNAm1Ajmm4" Ids="PL78pdilrY7Lr8qa5Sx0ws,CsTFHt1btrPQGVaRw1oTG0" />
-        <Link Id="FqhmYD51QCCMn9qJbOfXQ2" Ids="U66IUDloV63Mi63go20IER,OXibOxx5MYcPrhVmfypWrT" />
-        <Link Id="JqWcPna2L68P4m2eNryQA1" Ids="VWZZDKdAWVHPdV76139a2f,N5rIXFivYptQUSO8EYQrZS" />
-        <Link Id="A8nhmWKO1IbL7KZ0DG4V0p" Ids="U66IUDloV63Mi63go20IER,JZWLLUdEMXULbxeggnxX6j" />
-        <Link Id="GTiLSmG0yKYL5FSHujOSxA" Ids="FICmZs5aOCPLVcIEU1Kj1o,PRRRtNB2dV8NVbQ5ehRj8Z" />
-        <Link Id="VPHuUlsTUWdP4PVTzCab1E" Ids="U66IUDloV63Mi63go20IER,HKT5TanMkTNPvg1vHTUOrI" />
-        <Link Id="PH45RQ2irCXPnZEKWfLV1E" Ids="QaXFwEju4sDLw5maLy9ITC,JRZpkMI4C7yNb6nSMSTmP5" />
-        <Link Id="IVL3robv7HtQUoU6gITYy4" Ids="U66IUDloV63Mi63go20IER,P8tMhTUIzrwLMEq9EPICAm" />
-        <Link Id="R0wiuvQYb5pL8uXCEqKoHI" Ids="QEp6PqXU3EeM4WeWL2ix5o,ABk1GXymiftNNrvAEBVCDH" />
-        <Link Id="Q24Rd3NwivnQAimRlJtLDo" Ids="U66IUDloV63Mi63go20IER,TcITG4XHvqkLCxvQPJ3J06" />
-        <Link Id="IgkLbKYYLq1OBZ9yR8DIDp" Ids="PUcjiVpX1NTPsJhhDXaWmq,InqozL5RaObMiQc7rTM2an" />
-        <Link Id="KOa9oAx49rcNvYwPVO8KEc" Ids="U66IUDloV63Mi63go20IER,UB8EtPhupG1O0aXT2QYhRZ" />
-        <Link Id="AotqqQqvWqhNv41pPtmMt5" Ids="PgwCy3f5N2wOYp371W4ico,CeNt2MmtmiDLh5dZk2Jnsu" />
         <Link Id="HygKBUrOmbrPldsEsZQEbG" Ids="IbhLGzwOGlLMwhOHs93atG,ElDuo18GpoCLY4ZNlnwq99" />
         <Link Id="OCyTLDwcdDZOUPvBhzkTrL" Ids="ELsBsDkMKEvOK7jbh61qlS,CShaMYTnqwINAgi3860mFm" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="FurxUr5tEUTLZf0daNZcHC" Location="VL.Skia" Version="2019.1.0-0959-g3a31ab0c51" />
-  <DocumentDependency Id="QRaQMje7y1DLivV1chpGHt" Location="../../../VL.PolygonEditor.vl" />
+  <DocumentDependency Id="SAxqTqqFxndPMCYgyy9BP1" Location="../../../VL.2D.PolygonEditor.vl" />
 </Document>
