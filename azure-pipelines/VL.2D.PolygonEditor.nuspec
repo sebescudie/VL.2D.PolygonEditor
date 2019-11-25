@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.2D.PolygonEditor</id>
+    <version>1.0.0</version>
+    <title>VL.2D.PolygonEditor</title>
+    <authors>sebescudie</authors>
+    <owners>sebescudie</owners>
+    <projectUrl>https://github.com/sebescudie/VL.2D.PolygonEditor</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A simple polygon editor for vvvv gamma</summary>
+    <description>A simple polygon editor for vvvv gamma</description>
+    <copyright>Copyright © 2019 by sebescudie. All rights reserved.</copyright>
+    <tags>VL polygon</tags>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\**\*.vl" target="" exclude="" />
+  </files>
+</package>
