@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
+<Document xmlns:p="property" Id="TcMmF2qUPOhPCdj5yL5NiH" LanguageVersion="2019.1.0-0975-gbe94390fc5" Version="0.128">
   <NugetDependency Id="Na7I5vvzkxaLJOVjV3Y5dY" Location="VL.CoreLib" Version="2019.1.0-959" />
   <Patch Id="BgLZSIscectQSOv9XHhe8z">
     <Canvas Id="UGUGy7NZFEXOx6hzad1BsL" DefaultCategory="Main" CanvasType="FullCategory" />
@@ -43,7 +43,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="ADeOdcWdvRwNzLFzFzUZSj" Name="Bounds" Kind="InputPin" DefaultValue="1471, 405, 600, 400">
+            <Pin Id="ADeOdcWdvRwNzLFzFzUZSj" Name="Bounds" Kind="InputPin" DefaultValue="2150, 402, 600, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -70,7 +70,7 @@
             <Pin Id="OXibOxx5MYcPrhVmfypWrT" Name="Input" Kind="InputPin" />
             <Pin Id="N5rIXFivYptQUSO8EYQrZS" Name="Add" Kind="InputPin" />
           </Node>
-          <Node Bounds="328,246,79,19" Id="AKr6vDG9eg1OemvMsBlEjB">
+          <Node Bounds="311,368,79,19" Id="AKr6vDG9eg1OemvMsBlEjB">
             <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SelectPolygon" />
@@ -96,7 +96,7 @@
             </Pin>
             <Pin Id="JRZpkMI4C7yNb6nSMSTmP5" Name="Apply" Kind="InputPin" />
           </Node>
-          <Node Bounds="328,289,90,19" Id="TdJDxCk1SceN32dyVlC7UL">
+          <Node Bounds="311,287,90,19" Id="TdJDxCk1SceN32dyVlC7UL">
             <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetPolygonColor" />
@@ -122,7 +122,7 @@
             </Pin>
             <Pin Id="PUcjiVpX1NTPsJhhDXaWmq" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="328,332,74,19" Id="PUmdsQ3pohGNzA5sK52kIh">
+          <Node Bounds="311,328,74,19" Id="PUmdsQ3pohGNzA5sK52kIh">
             <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Filters" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FilterByColor (Polygon)" />
@@ -170,7 +170,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="GPEpBRSIxc2PDTgJIlSSX9" Bounds="578,405,341,176" ShowValueBox="true" isIOBox="true" Value="Todo :&#xD;&#xA;&#xD;&#xA;- Implement Undo/Redo&#xD;&#xA;- Node to move a polygon ?">
+          <Pad Id="GPEpBRSIxc2PDTgJIlSSX9" Bounds="633,398,341,176" ShowValueBox="true" isIOBox="true" Value="Todo :&#xD;&#xA;&#xD;&#xA;- Implement Undo/Redo&#xD;&#xA;- Node to move a polygon ?">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -207,7 +207,7 @@
             <Pin Id="B8J1fTwOBwuLsTz49bbRoE" Name="Input" Kind="InputPin" />
             <Pin Id="BwHc3H4lIDzNIxoOYjye4O" Name="Event" Kind="OutputPin" />
           </Node>
-          <Node Bounds="186,369,94,19" Id="Br0nhCfez1nPcDYfUzTClm">
+          <Node Bounds="186,368,94,19" Id="Br0nhCfez1nPcDYfUzTClm">
             <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="SetPolygonPoints" />
@@ -225,6 +225,15 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="311,246,70,19" Id="GBitGayiNmQPpHC4DLuKw7">
+            <p:NodeReference LastCategoryFullName="2D.PolygonEditor.Modifiers" LastSymbolSource="VL.2D.PolygonEditor.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AddPolygon (Points)" />
+            </p:NodeReference>
+            <Pin Id="BmmhvXuLL6oL6s37NIiVsw" Name="Input" Kind="InputPin" />
+            <Pin Id="Ka99Pxr2kKvNgaHQytzaUM" Name="Points" Kind="InputPin" />
+            <Pin Id="IgR0wehnckCL5beKSJtS2k" Name="Add" Kind="InputPin" />
+          </Node>
         </Canvas>
         <Patch Id="HUpbvSm7xcvNx8DMb8zHGj" Name="Create" />
         <Patch Id="KtLBAqVJoihNs9FPP9B0os" Name="Update" />
